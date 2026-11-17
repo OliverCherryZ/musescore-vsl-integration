@@ -1,0 +1,8 @@
+{
+  "baseCommit": "b750c43e316cf6a00e70451870b231b12f400bda",
+  "patchSha256": "a23aae4341d32d26271bf8855acb74c008a05d24151fc1542747bc66f24f2ee7",
+  "patchedFilesVerified": 169,
+  "allPatchedFilesByteIdentical": true,
+  "supportFilesVerified": 18,
+  "builtApplication": false
+}

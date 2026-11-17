@@ -1,0 +1,286 @@
+{
+  "date": "2026-11-18",
+  "scope": "packaging-only; no native UI or audio run",
+  "tests": [
+    {
+      "name": "profile enabled and matched to the smooth bridge",
+      "passed": true
+    },
+    {
+      "name": "vi catalog tokens, keyswitches and required leaf counts match runtime",
+      "passed": true
+    },
+    {
+      "name": "vi default, fallback and technique routes resolve",
+      "passed": true
+    },
+    {
+      "name": "vi sample leaf references are aligned",
+      "passed": true
+    },
+    {
+      "name": "vi2 catalog tokens, keyswitches and required leaf counts match runtime",
+      "passed": true
+    },
+    {
+      "name": "vi2 default, fallback and technique routes resolve",
+      "passed": true
+    },
+    {
+      "name": "vi2 sample leaf references are aligned",
+      "passed": true
+    },
+    {
+      "name": "va catalog tokens, keyswitches and required leaf counts match runtime",
+      "passed": true
+    },
+    {
+      "name": "va default, fallback and technique routes resolve",
+      "passed": true
+    },
+    {
+      "name": "va sample leaf references are aligned",
+      "passed": true
+    },
+    {
+      "name": "vc catalog tokens, keyswitches and required leaf counts match runtime",
+      "passed": true
+    },
+    {
+      "name": "vc default, fallback and technique routes resolve",
+      "passed": true
+    },
+    {
+      "name": "vc sample leaf references are aligned",
+      "passed": true
+    },
+    {
+      "name": "549 exact canonical tokens",
+      "passed": true
+    },
+    {
+      "name": "historical full Chinese aliases unchanged",
+      "passed": true
+    },
+    {
+      "name": "all new score captions English/Italian and at most36 characters",
+      "passed": true
+    },
+    {
+      "name": "no hash or canonical token visible",
+      "passed": true
+    },
+    {
+      "name": "original ricochet variants preserved",
+      "passed": true
+    },
+    {
+      "name": "recorded dynamic-legato captions do not imply live hairpins",
+      "passed": true
+    },
+    {
+      "name": "measured-tremolo recorded tempo is labelled sample",
+      "passed": true
+    },
+    {
+      "name": "blend captions never claim an automatic CC curve",
+      "passed": true
+    },
+    {
+      "name": "short names and full English details searchable",
+      "passed": true
+    },
+    {
+      "name": "historical Chinese searchable",
+      "passed": true
+    },
+    {
+      "name": "no short-caption alias registration",
+      "passed": true
+    },
+    {
+      "name": "violin options exclude cello effects",
+      "passed": true
+    },
+    {
+      "name": "cello options include effects",
+      "passed": true
+    },
+    {
+      "name": "visible filter options English",
+      "passed": true
+    },
+    {
+      "name": "note resolves to chord",
+      "passed": true
+    },
+    {
+      "name": "multiple notes same chord accepted",
+      "passed": true
+    },
+    {
+      "name": "multiple positions rejected",
+      "passed": true
+    },
+    {
+      "name": "empty selection rejected",
+      "passed": true
+    },
+    {
+      "name": "grace chord rejected",
+      "passed": true
+    },
+    {
+      "name": "insertion preserves track and fraction",
+      "passed": true
+    },
+    {
+      "name": "insertion single command boundary",
+      "passed": true
+    },
+    {
+      "name": "one visible StaffText stores all three fields",
+      "passed": true
+    },
+    {
+      "name": "metadata preselects inserted route",
+      "passed": true
+    },
+    {
+      "name": "replacement updates original three fields",
+      "passed": true
+    },
+    {
+      "name": "replacement one command no cursor or new element",
+      "passed": true
+    },
+    {
+      "name": "failed insertion requests rollback once",
+      "passed": true
+    },
+    {
+      "name": "older host without native metadata fails closed",
+      "passed": true
+    },
+    {
+      "name": "forged token rejected before transaction",
+      "passed": true
+    },
+    {
+      "name": "unowned caption rejected before transaction",
+      "passed": true
+    },
+    {
+      "name": "exactly ten cello-only catalog routes",
+      "passed": true
+    },
+    {
+      "name": "all cello-only routes rejected on actual violin and viola before command regardless browse filter",
+      "passed": true
+    },
+    {
+      "name": "all ten cello-only routes accepted on actual cello",
+      "passed": true
+    },
+    {
+      "name": "common route works for each supported actual instrument",
+      "passed": true
+    },
+    {
+      "name": "wrong-instrument replacement preserves all fields and opens no command",
+      "passed": true
+    },
+    {
+      "name": "missing or unsupported actual instrument fails closed",
+      "passed": true
+    },
+    {
+      "name": "instrument at actual target tick overrides first instrument",
+      "passed": true
+    },
+    {
+      "name": "later violin instrument cannot inherit initial cello permission",
+      "passed": true
+    },
+    {
+      "name": "tick query failure never falls back to potentially wrong first instrument",
+      "passed": true
+    },
+    {
+      "name": "forged availability list cannot bypass canonical instrument guard",
+      "passed": true
+    },
+    {
+      "name": "only scalar model fields are needed for trusted catalog lookup",
+      "passed": true
+    },
+    {
+      "name": "non-array QML-style nested sequence is never mistaken for catalog corruption",
+      "passed": true
+    },
+    {
+      "name": "collision fixture exists",
+      "passed": true
+    },
+    {
+      "name": "same caption exact metadata resolves ssv.b01a34ec8b3c4c159",
+      "passed": true
+    },
+    {
+      "name": "same caption exact metadata resolves ssv.b1ce368963ab1f088",
+      "passed": true
+    },
+    {
+      "name": "ambiguous bare caption never guessed",
+      "passed": true
+    },
+    {
+      "name": "manual visible edit invalidates old metadata preselection",
+      "passed": true
+    },
+    {
+      "name": "legacy full-path text remains selectable",
+      "passed": true
+    },
+    {
+      "name": "formatting does not change selector plain-caption match",
+      "passed": true
+    },
+    {
+      "name": "all549 caption-token-snapshot writes roundtrip",
+      "passed": true
+    },
+    {
+      "name": "XML p<f display preserved",
+      "passed": true
+    },
+    {
+      "name": "QML shows short preview plus full English details",
+      "passed": true
+    },
+    {
+      "name": "QML keeps canonical lookup and metadata apply",
+      "passed": true
+    },
+    {
+      "name": "QML doubleclick provides direct invocation",
+      "passed": true
+    },
+    {
+      "name": "QML owns white/hover/selected list backgrounds under dark control themes",
+      "passed": true
+    }
+  ],
+  "roundtrippedRoutes": 549,
+  "distinctCaptions": 404,
+  "qmlParser": "Qt 6.10.2 qmlformat",
+  "qmlParseReturnCode": 0,
+  "files": {
+    "README.md": "fcf4ded874f961790c4a9fc345cca33f17c97d2d18ca61f2836ebf7847ceb841",
+    "expression-maps/active.json": "d5abf7f534e7d7b4aa36e944ad48a80ee3933ac086443ffee1e3eead4ab9b709",
+    "tests/test-selector.js": "8af9c72eb318e9cbd3d5950ca58a900c352582129fbc360bed951021c73981b2",
+    "plugins/vsl_articulation_selector/CatalogData.js": "9185c9a21edf0a7d7c184a3880a672867eef3e37bc144a3cd11435c6a23a3580",
+    "plugins/vsl_articulation_selector/SelectionActions.js": "7eb925280fdd6b6f2e796ed60890d23bfb0752503c6c3272ed706da68685eef3",
+    "plugins/vsl_articulation_selector/VSLArticulationSelector.qml": "38c935d739ce4859e67411dc604994131f82360405072d77f140baa8d5533d3f"
+  }
+}

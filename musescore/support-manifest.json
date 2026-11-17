@@ -1,0 +1,96 @@
+{
+  "formatVersion": 1,
+  "purpose": "Required sibling support plus focused test sources; historical profile fixture provenance paths removed",
+  "files": [
+    {
+      "path": "full_coverage_20261117/load_observation_tests.cpp",
+      "bytes": 2972,
+      "sha256": "720356a27bc6259aea3f5f4a84faf6364fce7bf5892ca0247953456f82f1e61f"
+    },
+    {
+      "path": "full_coverage_20261117/shutdown_lifetime_review/lifetime_actual_helper_tests.cpp",
+      "bytes": 5101,
+      "sha256": "8df7a24d1b4689eb0a4032ee0c37e71ef540e1304e480baf18514ff1a60a1686"
+    },
+    {
+      "path": "full_coverage_20261117/shutdown_lifetime_review/timer_weak_owner/qt_timer_lifetime_tests.cpp",
+      "bytes": 7528,
+      "sha256": "731c2652ea1d4a7a09adb0f55c1545b85c2dd735fe75f7fab64674ce82769125"
+    },
+    {
+      "path": "full_coverage_20261117/state_codec_tests.cpp",
+      "bytes": 3258,
+      "sha256": "f527980490a3d2e0a21ce77e71dd2ec38c6fbae5aa6a41c5cd814e13b3cea3f4"
+    },
+    {
+      "path": "full_coverage_20261117/test_targets.cmake",
+      "bytes": 766,
+      "sha256": "38a6d8bf0af58748fd873b452dd49322e35912ea08faede83c0146037ea7b8e4"
+    },
+    {
+      "path": "full_coverage_20261117/tests/full_mapper_tests.cpp",
+      "bytes": 10113,
+      "sha256": "48cbe040e42abef5ffe222bb8fefe882f1da2cd9c618018200d16e45f0c76ac1"
+    },
+    {
+      "path": "full_coverage_20261117/tests/full_sequencer_tests.cpp",
+      "bytes": 5148,
+      "sha256": "d7da12cc67784d4d00be04f274a049c6fff952905179be36285ee0a8ec9ba237"
+    },
+    {
+      "path": "full_coverage_20261117/tests/preparation_request_tests.cpp",
+      "bytes": 2540,
+      "sha256": "4a28a5c90170d762a43fe2a764c4de5b0446ccbb8d5bc9bbc7d7d0e9d6705384"
+    },
+    {
+      "path": "host_patch/config/vsl_articulation_map.json",
+      "bytes": 42708,
+      "sha256": "ebe8720b127d57d4c1d94a7c94b69c995939c57d7b7e19575f62063b64d66906"
+    },
+    {
+      "path": "host_patch/extensions/harmonic_tremolo/vst/config/vsl_articulation_map_extended20.json",
+      "bytes": 67433,
+      "sha256": "9762de64b5c7f96b801d1aa4e05099ad15fe0f623ef1d19ecac56664f62fab79"
+    },
+    {
+      "path": "host_patch/extensions/harmonic_tremolo/vst/harmonic_tremolo_mapper_tests.cpp",
+      "bytes": 7971,
+      "sha256": "e824a295bcea0e9929b89ecde6274a8d6863030d23694af849e2230ecc77e7bb"
+    },
+    {
+      "path": "host_patch/extensions/vst/baseline_mapper_tests.cpp",
+      "bytes": 10245,
+      "sha256": "f2621f98bb910eb39bfc39328d70deda3c5ebb19fe95f97274dfba439065bcd5"
+    },
+    {
+      "path": "host_patch/extensions/vst/config/vsl_articulation_map_extended19.json",
+      "bytes": 62227,
+      "sha256": "603bf58917060bc45307aa4061a33286ecb7b6a9cad6b97f4d06c3aa9b798f1b"
+    },
+    {
+      "path": "host_patch/extensions/vst/extension_mapper_tests.cpp",
+      "bytes": 9524,
+      "sha256": "f28fb299b9f1e651948c8771338c4a35a3fc643073b242f7ecd14dd344ca1299"
+    },
+    {
+      "path": "host_patch/extensions/vst/extension_test_targets.cmake",
+      "bytes": 1747,
+      "sha256": "9100774c282906c2c26b569395d916e1e830f8b11c1b8a84ecb0966e81c352ba"
+    },
+    {
+      "path": "host_patch/mapper_test_target.cmake",
+      "bytes": 867,
+      "sha256": "abd40b40753abed53cda5237040b22401661e7ace18747468e99db6ebdcd6341"
+    },
+    {
+      "path": "host_patch/mapper_tests.cpp",
+      "bytes": 10245,
+      "sha256": "f2621f98bb910eb39bfc39328d70deda3c5ebb19fe95f97274dfba439065bcd5"
+    },
+    {
+      "path": "README.md",
+      "bytes": 995,
+      "sha256": "15750e48b17a73981eadc92b8bc1d6f0f971ed25f9d7ffd2964b731ffee5db87"
+    }
+  ]
+}

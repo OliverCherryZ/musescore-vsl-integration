@@ -1,0 +1,1518 @@
+{
+  "schemaVersion": 1,
+  "enabled": true,
+  "midiNoteConvention": "60=C4",
+  "instruments": {
+    "violin": {
+      "presetHints": [
+        "Factory/SYNCHRON Collections/06 Synchron Solo Strings/04 Velocity/Violin - Velocity",
+        "Factory/SYNCHRON Collections/06 Synchron Solo Strings/04 Velocity/Violin 2 - Velocity"
+      ],
+      "defaultArticulation": "standard",
+      "monophonicArticulations": [
+        "legato",
+        "portamento"
+      ],
+      "chordFallbackArticulation": "standard",
+      "articulations": {
+        "arco_normal": {
+          "keyswitches": [
+            25,
+            36,
+            44,
+            101,
+            105
+          ],
+          "nodePath": [
+            1,
+            0,
+            1,
+            0,
+            0
+          ],
+          "path": "Long notes/Regular/Poco vib./Normal rel./Normal att.",
+          "patchEntry": "vol://at.co.vsl.sy.sysolostr.vi:public/patches/06 Synchron Solo Strings/Violin/06 Long/01 So-VI Lo li-Vib.vsynpatch",
+          "patchName": "01 So-VI Lo li-Vib",
+          "leafLegatoMode": 0,
+          "rangeFrom": 55,
+          "rangeTo": 100,
+          "exitKeyswitches": [
+            25,
+            36,
+            44,
+            101,
+            105
+          ],
+          "policy": "direct_sample",
+          "command": "keyswitch",
+          "sampledOrnament": false
+        },
+        "staccato": {
+          "keyswitches": [
+            24,
+            38,
+            105
+          ],
+          "nodePath": [
+            0,
+            2,
+            0
+          ],
+          "path": "Short notes/Staccato/Bold",
+          "patchEntry": "vol://at.co.vsl.sy.sysolostr.vi:public/patches/06 Synchron Solo Strings/Violin/01 Short/03 So-VI Stac.vsynpatch",
+          "patchName": "03 So-VI Stac",
+          "leafLegatoMode": 0,
+          "rangeFrom": 55,
+          "rangeTo": 100,
+          "exitKeyswitches": [
+            25,
+            36,
+            44,
+            101,
+            105
+          ],
+          "policy": "direct_sample",
+          "command": "keyswitch",
+          "sampledOrnament": false
+        },
+        "spiccato": {
+          "keyswitches": [
+            24,
+            36,
+            105
+          ],
+          "nodePath": [
+            0,
+            0,
+            0
+          ],
+          "path": "Short notes/Spiccato/Bold",
+          "patchEntry": "vol://at.co.vsl.sy.sysolostr.vi:public/patches/06 Synchron Solo Strings/Violin/01 Short/01 So-VI Spic.vsynpatch",
+          "patchName": "01 So-VI Spic",
+          "leafLegatoMode": 0,
+          "rangeFrom": 55,
+          "rangeTo": 100,
+          "exitKeyswitches": [
+            25,
+            36,
+            44,
+            101,
+            105
+          ],
+          "policy": "direct_sample",
+          "command": "keyswitch",
+          "sampledOrnament": false
+        },
+        "detache": {
+          "keyswitches": [
+            24,
+            40,
+            105
+          ],
+          "nodePath": [
+            0,
+            4,
+            0
+          ],
+          "path": "Short notes/Detache/Bold",
+          "patchEntry": "vol://at.co.vsl.sy.sysolostr.vi:public/patches/06 Synchron Solo Strings/Violin/01 Short/11 So-VI Vib Det.vsynpatch",
+          "patchName": "11 So-VI Vib Det",
+          "leafLegatoMode": 0,
+          "rangeFrom": 55,
+          "rangeTo": 100,
+          "exitKeyswitches": [
+            25,
+            36,
+            44,
+            101,
+            105
+          ],
+          "policy": "direct_sample",
+          "command": "keyswitch",
+          "sampledOrnament": false
+        },
+        "pizzicato": {
+          "keyswitches": [
+            30,
+            36,
+            105
+          ],
+          "nodePath": [
+            6,
+            0,
+            0
+          ],
+          "path": "Pizzicato/Regular/Bold",
+          "patchEntry": "vol://at.co.vsl.sy.sysolostr.vi:public/patches/06 Synchron Solo Strings/Violin/01 Short/31 So-VI Pizz.vsynpatch",
+          "patchName": "31 So-VI Pizz",
+          "leafLegatoMode": 0,
+          "rangeFrom": 55,
+          "rangeTo": 100,
+          "exitKeyswitches": [
+            25,
+            36,
+            44,
+            101,
+            105
+          ],
+          "policy": "direct_sample",
+          "command": "keyswitch",
+          "sampledOrnament": false
+        },
+        "snap_pizzicato": {
+          "keyswitches": [
+            30,
+            37
+          ],
+          "nodePath": [
+            6,
+            1
+          ],
+          "path": "Pizzicato/Snap pizz.",
+          "patchEntry": "vol://at.co.vsl.sy.sysolostr.vi:public/patches/06 Synchron Solo Strings/Violin/01 Short/33 So-VI Pizz-snap.vsynpatch",
+          "patchName": "33 So-VI Pizz-snap",
+          "leafLegatoMode": 0,
+          "rangeFrom": 55,
+          "rangeTo": 100,
+          "exitKeyswitches": [
+            25,
+            36,
+            44,
+            101,
+            105
+          ],
+          "policy": "direct_sample",
+          "command": "keyswitch",
+          "sampledOrnament": false
+        },
+        "col_legno": {
+          "keyswitches": [
+            30,
+            38,
+            105
+          ],
+          "nodePath": [
+            6,
+            2,
+            0
+          ],
+          "path": "Pizzicato/Col legno/Bold",
+          "patchEntry": "vol://at.co.vsl.sy.sysolostr.vi:public/patches/06 Synchron Solo Strings/Violin/01 Short/34 So-VI Col legno.vsynpatch",
+          "patchName": "34 So-VI Col legno",
+          "leafLegatoMode": 0,
+          "rangeFrom": 55,
+          "rangeTo": 100,
+          "exitKeyswitches": [
+            25,
+            36,
+            44,
+            101,
+            105
+          ],
+          "policy": "direct_sample",
+          "command": "keyswitch",
+          "sampledOrnament": false
+        },
+        "tremolo_unmeasured": {
+          "keyswitches": [
+            28,
+            36,
+            101,
+            105
+          ],
+          "nodePath": [
+            4,
+            0,
+            0,
+            0
+          ],
+          "path": "Tremolo/Regular/Normal/Normal att.",
+          "patchEntry": "vol://at.co.vsl.sy.sysolostr.vi:public/patches/06 Synchron Solo Strings/Violin/11 Tremolos/01 So-VI Trem.vsynpatch",
+          "patchName": "01 So-VI Trem",
+          "leafLegatoMode": 0,
+          "rangeFrom": 55,
+          "rangeTo": 100,
+          "exitKeyswitches": [
+            25,
+            36,
+            44,
+            101,
+            105
+          ],
+          "policy": "needs_disable_host_note_repetition_to_avoid_double_tremolo",
+          "command": "keyswitch",
+          "sampledOrnament": true
+        },
+        "trill_half_tone": {
+          "keyswitches": [
+            29,
+            41,
+            101
+          ],
+          "nodePath": [
+            5,
+            0,
+            0
+          ],
+          "path": "Trills/Half-tone/Normal",
+          "patchEntry": "vol://at.co.vsl.sy.sysolostr.vi:public/patches/06 Synchron Solo Strings/Violin/13 Trills/01 So-VI Trill_1.vsynpatch",
+          "patchName": "01 So-VI Trill_1",
+          "leafLegatoMode": 0,
+          "rangeFrom": 55,
+          "rangeTo": 100,
+          "exitKeyswitches": [
+            25,
+            36,
+            44,
+            101,
+            105
+          ],
+          "policy": "needs_hold_note_instead_of_host_expanded_alternation",
+          "command": "keyswitch",
+          "sampledOrnament": true
+        },
+        "trill_whole_tone": {
+          "keyswitches": [
+            29,
+            42,
+            101
+          ],
+          "nodePath": [
+            5,
+            1,
+            0
+          ],
+          "path": "Trills/Whole tone/Normal",
+          "patchEntry": "vol://at.co.vsl.sy.sysolostr.vi:public/patches/06 Synchron Solo Strings/Violin/13 Trills/11 So-VI Trill_2.vsynpatch",
+          "patchName": "11 So-VI Trill_2",
+          "leafLegatoMode": 0,
+          "rangeFrom": 55,
+          "rangeTo": 100,
+          "exitKeyswitches": [
+            25,
+            36,
+            44,
+            101,
+            105
+          ],
+          "policy": "needs_hold_note_instead_of_host_expanded_alternation",
+          "command": "keyswitch",
+          "sampledOrnament": true
+        },
+        "harmonic_sustain": {
+          "keyswitches": [
+            31,
+            36
+          ],
+          "nodePath": [
+            7,
+            0
+          ],
+          "path": "Harmonics/Long notes",
+          "patchEntry": "vol://at.co.vsl.sy.sysolostr.vi:public/patches/06 Synchron Solo Strings/Violin/07 Harmonics/05 So-VI Harm Long.vsynpatch",
+          "patchName": "05 So-VI Harm Long",
+          "leafLegatoMode": 0,
+          "rangeFrom": 55,
+          "rangeTo": 88,
+          "exitKeyswitches": [
+            25,
+            36,
+            44,
+            101,
+            105
+          ],
+          "policy": "needs_sounding_pitch_policy",
+          "command": "keyswitch",
+          "sampledOrnament": false
+        },
+        "legato": {
+          "keyswitches": [
+            26,
+            36,
+            44,
+            101,
+            105
+          ],
+          "nodePath": [
+            2,
+            0,
+            1,
+            0,
+            0
+          ],
+          "path": "Perf. legato/Normal/Poco vib./Normal rel./Normal att.",
+          "patchEntry": "vol://at.co.vsl.sy.sysolostr.vi:public/patches/06 Synchron Solo Strings/Violin/02 Legato/01 So-VI Leg li-Vib.vsynpatch",
+          "patchName": "01 So-VI Leg li-Vib",
+          "leafLegatoMode": 0,
+          "rangeFrom": 55,
+          "rangeTo": 100,
+          "exitKeyswitches": [
+            25,
+            36,
+            44,
+            101,
+            105
+          ],
+          "policy": "needs_overlap_and_chord_policy",
+          "command": "keyswitch",
+          "sampledOrnament": false
+        },
+        "portamento": {
+          "keyswitches": [
+            26,
+            40,
+            44,
+            101,
+            105
+          ],
+          "nodePath": [
+            2,
+            4,
+            1,
+            0,
+            0
+          ],
+          "path": "Perf. legato/Portam./Poco vib./Normal rel./Normal att.",
+          "patchEntry": "vol://at.co.vsl.sy.sysolostr.vi:public/patches/06 Synchron Solo Strings/Violin/05 Portamento/01 So-VI pLeg li-Vib.vsynpatch",
+          "patchName": "01 So-VI pLeg li-Vib",
+          "leafLegatoMode": 0,
+          "rangeFrom": 55,
+          "rangeTo": 100,
+          "exitKeyswitches": [
+            25,
+            36,
+            44,
+            101,
+            105
+          ],
+          "policy": "needs_pitch_and_overlap_policy",
+          "command": "keyswitch",
+          "sampledOrnament": false
+        },
+        "standard": {
+          "keyswitches": [
+            25,
+            36,
+            44,
+            101,
+            105
+          ],
+          "nodePath": [
+            1,
+            0,
+            1,
+            0,
+            0
+          ],
+          "path": "Long notes/Regular/Poco vib./Normal rel./Normal att.",
+          "patchEntry": "vol://at.co.vsl.sy.sysolostr.vi:public/patches/06 Synchron Solo Strings/Violin/06 Long/01 So-VI Lo li-Vib.vsynpatch",
+          "patchName": "01 So-VI Lo li-Vib",
+          "leafLegatoMode": 0,
+          "rangeFrom": 55,
+          "rangeTo": 100,
+          "exitKeyswitches": [
+            25,
+            36,
+            44,
+            101,
+            105
+          ],
+          "policy": "direct_sample",
+          "command": "keyswitch",
+          "sampledOrnament": false
+        }
+      },
+      "techniqueMappings": {
+        "arco": "standard",
+        "natural": "standard",
+        "open": "standard",
+        "pizzicato": "pizzicato",
+        "snap-pizzicato": "snap_pizzicato",
+        "spiccato": "spiccato",
+        "staccato": "staccato",
+        "detache": "detache",
+        "legato": "legato",
+        "portamento": "portamento",
+        "col-legno": "col_legno",
+        "harmonics": "harmonic_sustain",
+        "tremolo": "tremolo_unmeasured",
+        "trill-half-tone": "trill_half_tone",
+        "trill-whole-tone": "trill_whole_tone"
+      },
+      "techniquePriorities": {
+        "arco": 20,
+        "natural": 20,
+        "open": 20,
+        "pizzicato": 100,
+        "snap-pizzicato": 100,
+        "spiccato": 20,
+        "staccato": 20,
+        "detache": 20,
+        "legato": 20,
+        "portamento": 20,
+        "col-legno": 100,
+        "harmonics": 100,
+        "tremolo": 100,
+        "trill-half-tone": 100,
+        "trill-whole-tone": 100
+      },
+      "symbolMappings": [
+        {
+          "type": "SnapPizzicato",
+          "articulation": "snap_pizzicato",
+          "priority": 200
+        },
+        {
+          "type": "Pizzicato",
+          "articulation": "pizzicato",
+          "priority": 150
+        },
+        {
+          "type": "Harmonic",
+          "articulation": "harmonic_sustain",
+          "priority": 150
+        },
+        {
+          "type": "ColLegno",
+          "articulation": "col_legno",
+          "priority": 150
+        },
+        {
+          "type": "Staccato",
+          "articulation": "staccato",
+          "priority": 60
+        },
+        {
+          "type": "Detache",
+          "articulation": "detache",
+          "priority": 60
+        },
+        {
+          "type": "Legato",
+          "articulation": "legato",
+          "priority": 40
+        }
+      ],
+      "disclosedMappings": {
+        "Tremolo8th": "staccato",
+        "Tremolo16th": "staccato",
+        "Tremolo32nd": "staccato",
+        "Tremolo64th": "staccato",
+        "TremoloBuzz": "staccato",
+        "Trill": "legato",
+        "TrillBaroque": "legato"
+      }
+    },
+    "viola": {
+      "presetHints": [
+        "Factory/SYNCHRON Collections/06 Synchron Solo Strings/04 Velocity/Viola - Velocity"
+      ],
+      "defaultArticulation": "standard",
+      "monophonicArticulations": [
+        "legato",
+        "portamento"
+      ],
+      "chordFallbackArticulation": "standard",
+      "articulations": {
+        "arco_normal": {
+          "keyswitches": [
+            25,
+            36,
+            44,
+            101,
+            105
+          ],
+          "nodePath": [
+            1,
+            0,
+            1,
+            0,
+            0
+          ],
+          "path": "Long notes/Regular/Poco vib./Normal rel./Normal att.",
+          "patchEntry": "vol://at.co.vsl.sy.sysolostr.va:public/patches/06 Synchron Solo Strings/Viola/06 Long/01 So-VA Lo li-Vib.vsynpatch",
+          "patchName": "01 So-VA Lo li-Vib",
+          "leafLegatoMode": 0,
+          "rangeFrom": 48,
+          "rangeTo": 88,
+          "exitKeyswitches": [
+            25,
+            36,
+            44,
+            101,
+            105
+          ],
+          "policy": "direct_sample",
+          "command": "keyswitch",
+          "sampledOrnament": false
+        },
+        "staccato": {
+          "keyswitches": [
+            24,
+            38,
+            105
+          ],
+          "nodePath": [
+            0,
+            2,
+            0
+          ],
+          "path": "Short notes/Staccato/Bold",
+          "patchEntry": "vol://at.co.vsl.sy.sysolostr.va:public/patches/06 Synchron Solo Strings/Viola/01 Short/03 So-VA Stac.vsynpatch",
+          "patchName": "03 So-VA Stac",
+          "leafLegatoMode": 0,
+          "rangeFrom": 48,
+          "rangeTo": 88,
+          "exitKeyswitches": [
+            25,
+            36,
+            44,
+            101,
+            105
+          ],
+          "policy": "direct_sample",
+          "command": "keyswitch",
+          "sampledOrnament": false
+        },
+        "spiccato": {
+          "keyswitches": [
+            24,
+            36,
+            105
+          ],
+          "nodePath": [
+            0,
+            0,
+            0
+          ],
+          "path": "Short notes/Spiccato/Bold",
+          "patchEntry": "vol://at.co.vsl.sy.sysolostr.va:public/patches/06 Synchron Solo Strings/Viola/01 Short/01 So-VA Spic.vsynpatch",
+          "patchName": "01 So-VA Spic",
+          "leafLegatoMode": 0,
+          "rangeFrom": 48,
+          "rangeTo": 88,
+          "exitKeyswitches": [
+            25,
+            36,
+            44,
+            101,
+            105
+          ],
+          "policy": "direct_sample",
+          "command": "keyswitch",
+          "sampledOrnament": false
+        },
+        "detache": {
+          "keyswitches": [
+            24,
+            40,
+            105
+          ],
+          "nodePath": [
+            0,
+            4,
+            0
+          ],
+          "path": "Short notes/Detache/Bold",
+          "patchEntry": "vol://at.co.vsl.sy.sysolostr.va:public/patches/06 Synchron Solo Strings/Viola/01 Short/11 So-VA Vib Det.vsynpatch",
+          "patchName": "11 So-VA Vib Det",
+          "leafLegatoMode": 0,
+          "rangeFrom": 48,
+          "rangeTo": 88,
+          "exitKeyswitches": [
+            25,
+            36,
+            44,
+            101,
+            105
+          ],
+          "policy": "direct_sample",
+          "command": "keyswitch",
+          "sampledOrnament": false
+        },
+        "pizzicato": {
+          "keyswitches": [
+            30,
+            36,
+            105
+          ],
+          "nodePath": [
+            6,
+            0,
+            0
+          ],
+          "path": "Pizzicato/Regular/Bold",
+          "patchEntry": "vol://at.co.vsl.sy.sysolostr.va:public/patches/06 Synchron Solo Strings/Viola/01 Short/31 So-VA Pizz.vsynpatch",
+          "patchName": "31 So-VA Pizz",
+          "leafLegatoMode": 0,
+          "rangeFrom": 48,
+          "rangeTo": 88,
+          "exitKeyswitches": [
+            25,
+            36,
+            44,
+            101,
+            105
+          ],
+          "policy": "direct_sample",
+          "command": "keyswitch",
+          "sampledOrnament": false
+        },
+        "snap_pizzicato": {
+          "keyswitches": [
+            30,
+            37
+          ],
+          "nodePath": [
+            6,
+            1
+          ],
+          "path": "Pizzicato/Snap pizz.",
+          "patchEntry": "vol://at.co.vsl.sy.sysolostr.va:public/patches/06 Synchron Solo Strings/Viola/01 Short/33 So-VA Pizz-snap.vsynpatch",
+          "patchName": "33 So-VA Pizz-snap",
+          "leafLegatoMode": 0,
+          "rangeFrom": 48,
+          "rangeTo": 88,
+          "exitKeyswitches": [
+            25,
+            36,
+            44,
+            101,
+            105
+          ],
+          "policy": "direct_sample",
+          "command": "keyswitch",
+          "sampledOrnament": false
+        },
+        "col_legno": {
+          "keyswitches": [
+            30,
+            38,
+            105
+          ],
+          "nodePath": [
+            6,
+            2,
+            0
+          ],
+          "path": "Pizzicato/Col legno/Bold",
+          "patchEntry": "vol://at.co.vsl.sy.sysolostr.va:public/patches/06 Synchron Solo Strings/Viola/01 Short/34 So-VA Col legno.vsynpatch",
+          "patchName": "34 So-VA Col legno",
+          "leafLegatoMode": 0,
+          "rangeFrom": 48,
+          "rangeTo": 88,
+          "exitKeyswitches": [
+            25,
+            36,
+            44,
+            101,
+            105
+          ],
+          "policy": "direct_sample",
+          "command": "keyswitch",
+          "sampledOrnament": false
+        },
+        "tremolo_unmeasured": {
+          "keyswitches": [
+            28,
+            36,
+            101,
+            105
+          ],
+          "nodePath": [
+            4,
+            0,
+            0,
+            0
+          ],
+          "path": "Tremolo/Regular/Normal/Normal att.",
+          "patchEntry": "vol://at.co.vsl.sy.sysolostr.va:public/patches/06 Synchron Solo Strings/Viola/11 Tremolos/01 So-VA Trem.vsynpatch",
+          "patchName": "01 So-VA Trem",
+          "leafLegatoMode": 0,
+          "rangeFrom": 48,
+          "rangeTo": 88,
+          "exitKeyswitches": [
+            25,
+            36,
+            44,
+            101,
+            105
+          ],
+          "policy": "needs_disable_host_note_repetition_to_avoid_double_tremolo",
+          "command": "keyswitch",
+          "sampledOrnament": true
+        },
+        "trill_half_tone": {
+          "keyswitches": [
+            29,
+            41,
+            101
+          ],
+          "nodePath": [
+            5,
+            0,
+            0
+          ],
+          "path": "Trills/Half-tone/Normal",
+          "patchEntry": "vol://at.co.vsl.sy.sysolostr.va:public/patches/06 Synchron Solo Strings/Viola/13 Trills/01 So-VA Trill_1.vsynpatch",
+          "patchName": "01 So-VA Trill_1",
+          "leafLegatoMode": 0,
+          "rangeFrom": 48,
+          "rangeTo": 88,
+          "exitKeyswitches": [
+            25,
+            36,
+            44,
+            101,
+            105
+          ],
+          "policy": "needs_hold_note_instead_of_host_expanded_alternation",
+          "command": "keyswitch",
+          "sampledOrnament": true
+        },
+        "trill_whole_tone": {
+          "keyswitches": [
+            29,
+            42,
+            101
+          ],
+          "nodePath": [
+            5,
+            1,
+            0
+          ],
+          "path": "Trills/Whole tone/Normal",
+          "patchEntry": "vol://at.co.vsl.sy.sysolostr.va:public/patches/06 Synchron Solo Strings/Viola/13 Trills/11 So-VA Trill_2.vsynpatch",
+          "patchName": "11 So-VA Trill_2",
+          "leafLegatoMode": 0,
+          "rangeFrom": 48,
+          "rangeTo": 88,
+          "exitKeyswitches": [
+            25,
+            36,
+            44,
+            101,
+            105
+          ],
+          "policy": "needs_hold_note_instead_of_host_expanded_alternation",
+          "command": "keyswitch",
+          "sampledOrnament": true
+        },
+        "harmonic_sustain": {
+          "keyswitches": [
+            31,
+            36
+          ],
+          "nodePath": [
+            7,
+            0
+          ],
+          "path": "Harmonics/Long notes",
+          "patchEntry": "vol://at.co.vsl.sy.sysolostr.va:public/patches/06 Synchron Solo Strings/Viola/07 Harmonics/05 So-VA Harm Long.vsynpatch",
+          "patchName": "05 So-VA Harm Long",
+          "leafLegatoMode": 0,
+          "rangeFrom": 48,
+          "rangeTo": 76,
+          "exitKeyswitches": [
+            25,
+            36,
+            44,
+            101,
+            105
+          ],
+          "policy": "needs_sounding_pitch_policy",
+          "command": "keyswitch",
+          "sampledOrnament": false
+        },
+        "legato": {
+          "keyswitches": [
+            26,
+            36,
+            44,
+            101,
+            105
+          ],
+          "nodePath": [
+            2,
+            0,
+            1,
+            0,
+            0
+          ],
+          "path": "Perf. legato/Normal/Poco vib./Normal rel./Normal att.",
+          "patchEntry": "vol://at.co.vsl.sy.sysolostr.va:public/patches/06 Synchron Solo Strings/Viola/02 Legato/01 So-VA Leg li-Vib.vsynpatch",
+          "patchName": "01 So-VA Leg li-Vib",
+          "leafLegatoMode": 0,
+          "rangeFrom": 48,
+          "rangeTo": 88,
+          "exitKeyswitches": [
+            25,
+            36,
+            44,
+            101,
+            105
+          ],
+          "policy": "needs_overlap_and_chord_policy",
+          "command": "keyswitch",
+          "sampledOrnament": false
+        },
+        "portamento": {
+          "keyswitches": [
+            26,
+            40,
+            44,
+            101,
+            105
+          ],
+          "nodePath": [
+            2,
+            4,
+            1,
+            0,
+            0
+          ],
+          "path": "Perf. legato/Portam./Poco vib./Normal rel./Normal att.",
+          "patchEntry": "vol://at.co.vsl.sy.sysolostr.va:public/patches/06 Synchron Solo Strings/Viola/05 Portamento/01 So-VA pLeg li-Vib.vsynpatch",
+          "patchName": "01 So-VA pLeg li-Vib",
+          "leafLegatoMode": 0,
+          "rangeFrom": 48,
+          "rangeTo": 88,
+          "exitKeyswitches": [
+            25,
+            36,
+            44,
+            101,
+            105
+          ],
+          "policy": "needs_pitch_and_overlap_policy",
+          "command": "keyswitch",
+          "sampledOrnament": false
+        },
+        "standard": {
+          "keyswitches": [
+            25,
+            36,
+            44,
+            101,
+            105
+          ],
+          "nodePath": [
+            1,
+            0,
+            1,
+            0,
+            0
+          ],
+          "path": "Long notes/Regular/Poco vib./Normal rel./Normal att.",
+          "patchEntry": "vol://at.co.vsl.sy.sysolostr.va:public/patches/06 Synchron Solo Strings/Viola/06 Long/01 So-VA Lo li-Vib.vsynpatch",
+          "patchName": "01 So-VA Lo li-Vib",
+          "leafLegatoMode": 0,
+          "rangeFrom": 48,
+          "rangeTo": 88,
+          "exitKeyswitches": [
+            25,
+            36,
+            44,
+            101,
+            105
+          ],
+          "policy": "direct_sample",
+          "command": "keyswitch",
+          "sampledOrnament": false
+        }
+      },
+      "techniqueMappings": {
+        "arco": "standard",
+        "natural": "standard",
+        "open": "standard",
+        "pizzicato": "pizzicato",
+        "snap-pizzicato": "snap_pizzicato",
+        "spiccato": "spiccato",
+        "staccato": "staccato",
+        "detache": "detache",
+        "legato": "legato",
+        "portamento": "portamento",
+        "col-legno": "col_legno",
+        "harmonics": "harmonic_sustain",
+        "tremolo": "tremolo_unmeasured",
+        "trill-half-tone": "trill_half_tone",
+        "trill-whole-tone": "trill_whole_tone"
+      },
+      "techniquePriorities": {
+        "arco": 20,
+        "natural": 20,
+        "open": 20,
+        "pizzicato": 100,
+        "snap-pizzicato": 100,
+        "spiccato": 20,
+        "staccato": 20,
+        "detache": 20,
+        "legato": 20,
+        "portamento": 20,
+        "col-legno": 100,
+        "harmonics": 100,
+        "tremolo": 100,
+        "trill-half-tone": 100,
+        "trill-whole-tone": 100
+      },
+      "symbolMappings": [
+        {
+          "type": "SnapPizzicato",
+          "articulation": "snap_pizzicato",
+          "priority": 200
+        },
+        {
+          "type": "Pizzicato",
+          "articulation": "pizzicato",
+          "priority": 150
+        },
+        {
+          "type": "Harmonic",
+          "articulation": "harmonic_sustain",
+          "priority": 150
+        },
+        {
+          "type": "ColLegno",
+          "articulation": "col_legno",
+          "priority": 150
+        },
+        {
+          "type": "Staccato",
+          "articulation": "staccato",
+          "priority": 60
+        },
+        {
+          "type": "Detache",
+          "articulation": "detache",
+          "priority": 60
+        },
+        {
+          "type": "Legato",
+          "articulation": "legato",
+          "priority": 40
+        }
+      ],
+      "disclosedMappings": {
+        "Tremolo8th": "staccato",
+        "Tremolo16th": "staccato",
+        "Tremolo32nd": "staccato",
+        "Tremolo64th": "staccato",
+        "TremoloBuzz": "staccato",
+        "Trill": "legato",
+        "TrillBaroque": "legato"
+      }
+    },
+    "violoncello": {
+      "presetHints": [
+        "Factory/SYNCHRON Collections/06 Synchron Solo Strings/04 Velocity/Violoncello - Velocity"
+      ],
+      "defaultArticulation": "standard",
+      "monophonicArticulations": [
+        "legato",
+        "portamento"
+      ],
+      "chordFallbackArticulation": "standard",
+      "articulations": {
+        "arco_normal": {
+          "keyswitches": [
+            25,
+            84,
+            92,
+            101,
+            105
+          ],
+          "nodePath": [
+            1,
+            0,
+            1,
+            0,
+            0
+          ],
+          "path": "Long notes/Regular/Poco vib./Normal rel./Normal att.",
+          "patchEntry": "vol://at.co.vsl.sy.sysolostr.vc:public/patches/06 Synchron Solo Strings/Violoncello/06 Long/01 So-VC Lo li-Vib.vsynpatch",
+          "patchName": "01 So-VC Lo li-Vib",
+          "leafLegatoMode": 0,
+          "rangeFrom": 36,
+          "rangeTo": 81,
+          "exitKeyswitches": [
+            25,
+            84,
+            92,
+            101,
+            105
+          ],
+          "policy": "direct_sample",
+          "command": "keyswitch",
+          "sampledOrnament": false
+        },
+        "staccato": {
+          "keyswitches": [
+            24,
+            86,
+            105
+          ],
+          "nodePath": [
+            0,
+            2,
+            0
+          ],
+          "path": "Short notes/Staccato/Bold",
+          "patchEntry": "vol://at.co.vsl.sy.sysolostr.vc:public/patches/06 Synchron Solo Strings/Violoncello/01 Short/03 So-VC Stac.vsynpatch",
+          "patchName": "03 So-VC Stac",
+          "leafLegatoMode": 0,
+          "rangeFrom": 36,
+          "rangeTo": 81,
+          "exitKeyswitches": [
+            25,
+            84,
+            92,
+            101,
+            105
+          ],
+          "policy": "direct_sample",
+          "command": "keyswitch",
+          "sampledOrnament": false
+        },
+        "spiccato": {
+          "keyswitches": [
+            24,
+            84,
+            105
+          ],
+          "nodePath": [
+            0,
+            0,
+            0
+          ],
+          "path": "Short notes/Spiccato/Bold",
+          "patchEntry": "vol://at.co.vsl.sy.sysolostr.vc:public/patches/06 Synchron Solo Strings/Violoncello/01 Short/01 So-VC Spic.vsynpatch",
+          "patchName": "01 So-VC Spic",
+          "leafLegatoMode": 0,
+          "rangeFrom": 36,
+          "rangeTo": 81,
+          "exitKeyswitches": [
+            25,
+            84,
+            92,
+            101,
+            105
+          ],
+          "policy": "direct_sample",
+          "command": "keyswitch",
+          "sampledOrnament": false
+        },
+        "detache": {
+          "keyswitches": [
+            24,
+            88,
+            105
+          ],
+          "nodePath": [
+            0,
+            4,
+            0
+          ],
+          "path": "Short notes/Detache/Bold",
+          "patchEntry": "vol://at.co.vsl.sy.sysolostr.vc:public/patches/06 Synchron Solo Strings/Violoncello/01 Short/11 So-VC Vib Det.vsynpatch",
+          "patchName": "11 So-VC Vib Det",
+          "leafLegatoMode": 0,
+          "rangeFrom": 36,
+          "rangeTo": 81,
+          "exitKeyswitches": [
+            25,
+            84,
+            92,
+            101,
+            105
+          ],
+          "policy": "direct_sample",
+          "command": "keyswitch",
+          "sampledOrnament": false
+        },
+        "pizzicato": {
+          "keyswitches": [
+            30,
+            84,
+            105
+          ],
+          "nodePath": [
+            6,
+            0,
+            0
+          ],
+          "path": "Pizzicato/Regular/Bold",
+          "patchEntry": "vol://at.co.vsl.sy.sysolostr.vc:public/patches/06 Synchron Solo Strings/Violoncello/01 Short/31 So-VC Pizz.vsynpatch",
+          "patchName": "31 So-VC Pizz",
+          "leafLegatoMode": 0,
+          "rangeFrom": 36,
+          "rangeTo": 81,
+          "exitKeyswitches": [
+            25,
+            84,
+            92,
+            101,
+            105
+          ],
+          "policy": "direct_sample",
+          "command": "keyswitch",
+          "sampledOrnament": false
+        },
+        "snap_pizzicato": {
+          "keyswitches": [
+            30,
+            85
+          ],
+          "nodePath": [
+            6,
+            1
+          ],
+          "path": "Pizzicato/Snap pizz.",
+          "patchEntry": "vol://at.co.vsl.sy.sysolostr.vc:public/patches/06 Synchron Solo Strings/Violoncello/01 Short/33 So-VC Pizz-snap.vsynpatch",
+          "patchName": "33 So-VC Pizz-snap",
+          "leafLegatoMode": 0,
+          "rangeFrom": 36,
+          "rangeTo": 81,
+          "exitKeyswitches": [
+            25,
+            84,
+            92,
+            101,
+            105
+          ],
+          "policy": "direct_sample",
+          "command": "keyswitch",
+          "sampledOrnament": false
+        },
+        "col_legno": {
+          "keyswitches": [
+            30,
+            86,
+            105
+          ],
+          "nodePath": [
+            6,
+            2,
+            0
+          ],
+          "path": "Pizzicato/Col legno/Bold",
+          "patchEntry": "vol://at.co.vsl.sy.sysolostr.vc:public/patches/06 Synchron Solo Strings/Violoncello/01 Short/34 So-VC Col legno.vsynpatch",
+          "patchName": "34 So-VC Col legno",
+          "leafLegatoMode": 0,
+          "rangeFrom": 36,
+          "rangeTo": 81,
+          "exitKeyswitches": [
+            25,
+            84,
+            92,
+            101,
+            105
+          ],
+          "policy": "direct_sample",
+          "command": "keyswitch",
+          "sampledOrnament": false
+        },
+        "tremolo_unmeasured": {
+          "keyswitches": [
+            28,
+            84,
+            101,
+            105
+          ],
+          "nodePath": [
+            4,
+            0,
+            0,
+            0
+          ],
+          "path": "Tremolo/Regular/Normal/Normal att.",
+          "patchEntry": "vol://at.co.vsl.sy.sysolostr.vc:public/patches/06 Synchron Solo Strings/Violoncello/11 Tremolos/01 So-VC Trem.vsynpatch",
+          "patchName": "01 So-VC Trem",
+          "leafLegatoMode": 0,
+          "rangeFrom": 36,
+          "rangeTo": 81,
+          "exitKeyswitches": [
+            25,
+            84,
+            92,
+            101,
+            105
+          ],
+          "policy": "needs_disable_host_note_repetition_to_avoid_double_tremolo",
+          "command": "keyswitch",
+          "sampledOrnament": true
+        },
+        "trill_half_tone": {
+          "keyswitches": [
+            29,
+            89,
+            101
+          ],
+          "nodePath": [
+            5,
+            0,
+            0
+          ],
+          "path": "Trills/Half-tone/Normal",
+          "patchEntry": "vol://at.co.vsl.sy.sysolostr.vc:public/patches/06 Synchron Solo Strings/Violoncello/13 Trills/01 So-VC Trill_1.vsynpatch",
+          "patchName": "01 So-VC Trill_1",
+          "leafLegatoMode": 0,
+          "rangeFrom": 36,
+          "rangeTo": 81,
+          "exitKeyswitches": [
+            25,
+            84,
+            92,
+            101,
+            105
+          ],
+          "policy": "needs_hold_note_instead_of_host_expanded_alternation",
+          "command": "keyswitch",
+          "sampledOrnament": true
+        },
+        "trill_whole_tone": {
+          "keyswitches": [
+            29,
+            90,
+            101
+          ],
+          "nodePath": [
+            5,
+            1,
+            0
+          ],
+          "path": "Trills/Whole tone/Normal",
+          "patchEntry": "vol://at.co.vsl.sy.sysolostr.vc:public/patches/06 Synchron Solo Strings/Violoncello/13 Trills/11 So-VC Trill_2.vsynpatch",
+          "patchName": "11 So-VC Trill_2",
+          "leafLegatoMode": 0,
+          "rangeFrom": 36,
+          "rangeTo": 81,
+          "exitKeyswitches": [
+            25,
+            84,
+            92,
+            101,
+            105
+          ],
+          "policy": "needs_hold_note_instead_of_host_expanded_alternation",
+          "command": "keyswitch",
+          "sampledOrnament": true
+        },
+        "harmonic_sustain": {
+          "keyswitches": [
+            31,
+            84
+          ],
+          "nodePath": [
+            7,
+            0
+          ],
+          "path": "Harmonics/Long notes",
+          "patchEntry": "vol://at.co.vsl.sy.sysolostr.vc:public/patches/06 Synchron Solo Strings/Violoncello/07 Harmonics/05 So-VC Harm Long.vsynpatch",
+          "patchName": "05 So-VC Harm Long",
+          "leafLegatoMode": 0,
+          "rangeFrom": 36,
+          "rangeTo": 69,
+          "exitKeyswitches": [
+            25,
+            84,
+            92,
+            101,
+            105
+          ],
+          "policy": "needs_sounding_pitch_policy",
+          "command": "keyswitch",
+          "sampledOrnament": false
+        },
+        "legato": {
+          "keyswitches": [
+            26,
+            84,
+            92,
+            101,
+            105
+          ],
+          "nodePath": [
+            2,
+            0,
+            1,
+            0,
+            0
+          ],
+          "path": "Perf. legato/Normal/Poco vib./Normal rel./Normal att.",
+          "patchEntry": "vol://at.co.vsl.sy.sysolostr.vc:public/patches/06 Synchron Solo Strings/Violoncello/02 Legato/01 So-VC Leg li-Vib.vsynpatch",
+          "patchName": "01 So-VC Leg li-Vib",
+          "leafLegatoMode": 0,
+          "rangeFrom": 36,
+          "rangeTo": 81,
+          "exitKeyswitches": [
+            25,
+            84,
+            92,
+            101,
+            105
+          ],
+          "policy": "needs_overlap_and_chord_policy",
+          "command": "keyswitch",
+          "sampledOrnament": false
+        },
+        "portamento": {
+          "keyswitches": [
+            26,
+            88,
+            92,
+            101,
+            105
+          ],
+          "nodePath": [
+            2,
+            4,
+            1,
+            0,
+            0
+          ],
+          "path": "Perf. legato/Portam./Poco vib./Normal rel./Normal att.",
+          "patchEntry": "vol://at.co.vsl.sy.sysolostr.vc:public/patches/06 Synchron Solo Strings/Violoncello/05 Portamento/01 So-VC pLeg li-Vib.vsynpatch",
+          "patchName": "01 So-VC pLeg li-Vib",
+          "leafLegatoMode": 0,
+          "rangeFrom": 36,
+          "rangeTo": 81,
+          "exitKeyswitches": [
+            25,
+            84,
+            92,
+            101,
+            105
+          ],
+          "policy": "needs_pitch_and_overlap_policy",
+          "command": "keyswitch",
+          "sampledOrnament": false
+        },
+        "standard": {
+          "keyswitches": [
+            25,
+            84,
+            92,
+            101,
+            105
+          ],
+          "nodePath": [
+            1,
+            0,
+            1,
+            0,
+            0
+          ],
+          "path": "Long notes/Regular/Poco vib./Normal rel./Normal att.",
+          "patchEntry": "vol://at.co.vsl.sy.sysolostr.vc:public/patches/06 Synchron Solo Strings/Violoncello/06 Long/01 So-VC Lo li-Vib.vsynpatch",
+          "patchName": "01 So-VC Lo li-Vib",
+          "leafLegatoMode": 0,
+          "rangeFrom": 36,
+          "rangeTo": 81,
+          "exitKeyswitches": [
+            25,
+            84,
+            92,
+            101,
+            105
+          ],
+          "policy": "direct_sample",
+          "command": "keyswitch",
+          "sampledOrnament": false
+        }
+      },
+      "techniqueMappings": {
+        "arco": "standard",
+        "natural": "standard",
+        "open": "standard",
+        "pizzicato": "pizzicato",
+        "snap-pizzicato": "snap_pizzicato",
+        "spiccato": "spiccato",
+        "staccato": "staccato",
+        "detache": "detache",
+        "legato": "legato",
+        "portamento": "portamento",
+        "col-legno": "col_legno",
+        "harmonics": "harmonic_sustain",
+        "tremolo": "tremolo_unmeasured",
+        "trill-half-tone": "trill_half_tone",
+        "trill-whole-tone": "trill_whole_tone"
+      },
+      "techniquePriorities": {
+        "arco": 20,
+        "natural": 20,
+        "open": 20,
+        "pizzicato": 100,
+        "snap-pizzicato": 100,
+        "spiccato": 20,
+        "staccato": 20,
+        "detache": 20,
+        "legato": 20,
+        "portamento": 20,
+        "col-legno": 100,
+        "harmonics": 100,
+        "tremolo": 100,
+        "trill-half-tone": 100,
+        "trill-whole-tone": 100
+      },
+      "symbolMappings": [
+        {
+          "type": "SnapPizzicato",
+          "articulation": "snap_pizzicato",
+          "priority": 200
+        },
+        {
+          "type": "Pizzicato",
+          "articulation": "pizzicato",
+          "priority": 150
+        },
+        {
+          "type": "Harmonic",
+          "articulation": "harmonic_sustain",
+          "priority": 150
+        },
+        {
+          "type": "ColLegno",
+          "articulation": "col_legno",
+          "priority": 150
+        },
+        {
+          "type": "Staccato",
+          "articulation": "staccato",
+          "priority": 60
+        },
+        {
+          "type": "Detache",
+          "articulation": "detache",
+          "priority": 60
+        },
+        {
+          "type": "Legato",
+          "articulation": "legato",
+          "priority": 40
+        }
+      ],
+      "disclosedMappings": {
+        "Tremolo8th": "staccato",
+        "Tremolo16th": "staccato",
+        "Tremolo32nd": "staccato",
+        "Tremolo64th": "staccato",
+        "TremoloBuzz": "staccato",
+        "Trill": "legato",
+        "TrillBaroque": "legato"
+      }
+    }
+  },
+  "dispatch": {
+    "order": "root_to_leaf_before_musical_note_on",
+    "channel": "same_as_target_instrument",
+    "keyswitchNoteOnVelocity": 1.0,
+    "pairedNoteOffRequired": true,
+    "initialAndSeekArticulation": "route attached to the first musical onset after start/seek",
+    "onLegatoExit": "standard",
+    "preserveExistingCcAndHostDynamics": true,
+    "midiChannel": 0
+  },
+  "resourceIds": [
+    "Synchron Smooth Bridge"
+  ]
+}

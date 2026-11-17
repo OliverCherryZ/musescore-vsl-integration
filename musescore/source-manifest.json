@@ -1,0 +1,1208 @@
+{
+  "formatVersion": 1,
+  "releaseDate": "2026-11-18",
+  "upstreamRepository": "https://github.com/musescore/MuseScore.git",
+  "upstreamTag": "v4.7.7",
+  "baseCommit": "b750c43e316cf6a00e70451870b231b12f400bda",
+  "patch": {
+    "path": "musescore-v4.7.7-vsl-integration.patch",
+    "bytes": 5956571,
+    "sha256": "a23aae4341d32d26271bf8855acb74c008a05d24151fc1542747bc66f24f2ee7"
+  },
+  "modifiedTrackedFiles": 46,
+  "addedFiles": 123,
+  "files": [
+    {
+      "path": "CMakeLists.txt",
+      "status": "modified",
+      "bytes": 11478,
+      "sha256": "ea60b73dbbc0214061445b23ecaa5ab566ae794358f9dedf673e617e0c20c279",
+      "baseSha256": "d39b36db9c1ef4e12a4d085bba6f590ffc35dce4d3dc6f5a1fc0bcf7b7cdb2c4"
+    },
+    {
+      "path": "src/app/main.cpp",
+      "status": "modified",
+      "bytes": 6401,
+      "sha256": "2d52ef000bd987b1088ab731b667ac5350b1c838cd58535b9e775b6e18967e51",
+      "baseSha256": "02586a429808ee14912b52488e18d7b0f5020bcbdb0d1b056767f6a9afa4f74d"
+    },
+    {
+      "path": "src/engraving/api/v1/elements.h",
+      "status": "modified",
+      "bytes": 119755,
+      "sha256": "ffe65d8b35094447231ed1dfa399926ea7286d768c27e73921037a6279471c00",
+      "baseSha256": "507746e16d3d6195dffbe44944edc10ddf5426844f42042b3b88ca088bca73a5"
+    },
+    {
+      "path": "src/engraving/dom/property.cpp",
+      "status": "modified",
+      "bytes": 92903,
+      "sha256": "1a068f1807b5b4fe6c246e095447c274762d9907f6deb407f88bf3a8ec9d0b28",
+      "baseSha256": "a682f1ad23c51688f539e60304336e7dc7fb19ad0e4767f2e5c706a7673f3de8"
+    },
+    {
+      "path": "src/engraving/dom/property.h",
+      "status": "modified",
+      "bytes": 12862,
+      "sha256": "030ac2ac569a561c3df3435f345d9f58285ed2396eb2d6fd717498f61822a7b7",
+      "baseSha256": "fd81a8f74c64fc8fe0d148fc927dabb5f614670d4e4760d400b68d05234a7b4f"
+    },
+    {
+      "path": "src/engraving/dom/stafftext.cpp",
+      "status": "modified",
+      "bytes": 4894,
+      "sha256": "7a3620f6ddfda0c9332f741bf56b41bd5a9ea0509a3ec5bd851ed6b01149779f",
+      "baseSha256": "adb0d520b914be6ea55b7276ac99e14b3f54ec0ee1879bdbf24d76f8bda7d8cf"
+    },
+    {
+      "path": "src/engraving/dom/stafftext.h",
+      "status": "modified",
+      "bytes": 2561,
+      "sha256": "fa30226de865d2211b075cda83d2fedd08d4759ebf5140040e83e765f3af0e8b",
+      "baseSha256": "8144e0f6fce3151571b5038b9890a73280753925bca91b572e6b7383240d6862"
+    },
+    {
+      "path": "src/engraving/playback/metaparsers/metaparserbase.h",
+      "status": "modified",
+      "bytes": 2131,
+      "sha256": "2dd72684e6203f1f1500c95b3425f41db0121c0272d0ef80ebf462da78a63cdd",
+      "baseSha256": "1cc5560957d3b9d9ac50f4734f05f4def163f1c3356468480d1279c51543a829"
+    },
+    {
+      "path": "src/engraving/playback/metaparsers/notearticulationsparser.cpp",
+      "status": "modified",
+      "bytes": 10662,
+      "sha256": "2188fff491e99c6483490cab458fc9afe0e5df51bd317524086b59d5b619c851",
+      "baseSha256": "6a0dd2d7a4a0885908d9a168fa86e585458f10ee96b92b5b372082c9c9cece43"
+    },
+    {
+      "path": "src/engraving/playback/playback.cmake",
+      "status": "modified",
+      "bytes": 5238,
+      "sha256": "a047da5cb7e6ca3a9a2ee393ed3b91034ec48196e54f1f6dac132311a6e022d3",
+      "baseSha256": "5ea06d935622aaf07c902454ea7a7c29e5b12e1151db37f38faf5ae445c0fea4"
+    },
+    {
+      "path": "src/engraving/playback/playbackcontext.cpp",
+      "status": "modified",
+      "bytes": 37918,
+      "sha256": "c494d064bb883783d1b7cdab3dcf3755bcdddbe495de6e2e426cded32c47bcc9",
+      "baseSha256": "ea92756a35886e9a33b8be264ee98ddf5a87ea18a7f9767cf875c4f9c6748105"
+    },
+    {
+      "path": "src/engraving/playback/playbackcontext.h",
+      "status": "modified",
+      "bytes": 6114,
+      "sha256": "c005041829c364f7627c23028aa591b19db821df394eb6ea069245853bea170c",
+      "baseSha256": "53aa2b3bab13917f377d36115ab355a2a60e4b2b102bf210ad25da58e5e89ac8"
+    },
+    {
+      "path": "src/engraving/playback/renderers/ornamentsrenderer.cpp",
+      "status": "modified",
+      "bytes": 20284,
+      "sha256": "fbbd4ba33dea14678bacdb1d0dc7dfcd09fdb598c20af95943e9016b2556c3f4",
+      "baseSha256": "b4092ae2361e378a3a47dedd0501581c29006b6a6c5377c89b6efcdcc32c5948"
+    },
+    {
+      "path": "src/engraving/playback/renderers/tremolorenderer.cpp",
+      "status": "modified",
+      "bytes": 10322,
+      "sha256": "42b4a1470ada68f326a23a5181330d4b09aefd583ceda1fd4575550736c49250",
+      "baseSha256": "e0bfc75ba7a1cade506de6c138977f9136d03b7ab46e536faa54f6f99a6eaa1f"
+    },
+    {
+      "path": "src/engraving/playback/renderingcontext.h",
+      "status": "modified",
+      "bytes": 6227,
+      "sha256": "6bd104d32b906fa7c20c61982abb27e020d9d5dd6c6fe03f932a1e90bac382e3",
+      "baseSha256": "b51f9a2629829e1f2305d81d3b51475eb9da8451100d554657b2aeaa0ddffb11"
+    },
+    {
+      "path": "src/engraving/playback/utils/playingtechniquealiases.cpp",
+      "status": "added",
+      "bytes": 5235,
+      "sha256": "da5f66d8e807f9a786e9a3dfe2136ee09170f01103856e59b70da746cbe3632c",
+      "baseSha256": null
+    },
+    {
+      "path": "src/engraving/playback/utils/playingtechniquealiases.h",
+      "status": "added",
+      "bytes": 339,
+      "sha256": "7c71d4f9562c72cffad66da09a354f5ed675a4f9809f09d43971095eb5218542",
+      "baseSha256": null
+    },
+    {
+      "path": "src/engraving/playback/utils/playingtechniqueutils.h",
+      "status": "added",
+      "bytes": 9449,
+      "sha256": "e306af6726da526e570187bb919d8e056ae8e43f9071b231f088361b6fc82b0b",
+      "baseSha256": null
+    },
+    {
+      "path": "src/engraving/rw/read460/tread.cpp",
+      "status": "modified",
+      "bytes": 175049,
+      "sha256": "9712d8aca4cb798017400c6242d52bb25d203ff6d7a73cccc4b50ca763bca24b",
+      "baseSha256": "6cc0fa1edf12cf810cf0575c83b724a3024f46b11a88e4deb00dd2d9a2af240b"
+    },
+    {
+      "path": "src/engraving/rw/write/twrite.cpp",
+      "status": "modified",
+      "bytes": 126398,
+      "sha256": "96a49b49af04c83e84792d2111394a2a9779c98602672906d97042aa6f76d408",
+      "baseSha256": "46c8bb9e2d666394d7e5160320e1e3c9924c754d1a3816c51fa907b6d7205f8c"
+    },
+    {
+      "path": "src/engraving/tests/CMakeLists.txt",
+      "status": "modified",
+      "bytes": 5637,
+      "sha256": "4289a36ab28756099437e95a227bde1c2570e876e49bd08d301e66d4701c1ee4",
+      "baseSha256": "5deb40718e1e9086dc21a1acf084aaf3ab20abf758209979539e8ae343aeac15"
+    },
+    {
+      "path": "src/engraving/tests/playback/playbackcontext_data/play_techniques/harmonic_tremolo_native.mscx",
+      "status": "added",
+      "bytes": 22323,
+      "sha256": "bdf66c36f6dcc126896ce11f1eceed3a1ba3d4c3063a9d1c9a707b75961262b8",
+      "baseSha256": null
+    },
+    {
+      "path": "src/engraving/tests/playback/playbackcontext_data/play_techniques/persistent_col_legno_arco.mscx",
+      "status": "added",
+      "bytes": 1808,
+      "sha256": "f049462570b986e3a13a92c525234e5d8d7b728fa61e72fc9cc5165565253118",
+      "baseSha256": null
+    },
+    {
+      "path": "src/engraving/tests/playback/playbackcontext_data/play_techniques/persistent_harmonic_local_override.mscx",
+      "status": "added",
+      "bytes": 1384,
+      "sha256": "aad94f9bdc510698ea964a5335dac0038d267cd614e81ab52aa29debdbd410a7",
+      "baseSha256": null
+    },
+    {
+      "path": "src/engraving/tests/playback/playbackcontext_data/play_techniques/persistent_staff_text.mscx",
+      "status": "added",
+      "bytes": 4181,
+      "sha256": "7f94380c9e22e1d898b69a11a92a564f8d0e6461f3dd6676fd8ad00283af2c5f",
+      "baseSha256": null
+    },
+    {
+      "path": "src/engraving/tests/playback/playbackcontext_data/play_techniques/persistent_staff_text_measure_repeat.mscx",
+      "status": "added",
+      "bytes": 3765,
+      "sha256": "62dafd8a3a042a54292c6a571dc1dd628820cc8b08fc3e6a2fbdfa4707f15017",
+      "baseSha256": null
+    },
+    {
+      "path": "src/engraving/tests/playback/playbackcontext_data/play_techniques/persistent_staff_text_unmarked_repeat.mscx",
+      "status": "added",
+      "bytes": 1523,
+      "sha256": "56e70fc81338ba676c88ce1ce175761e87f6055596c5e636369f206b86837020",
+      "baseSha256": null
+    },
+    {
+      "path": "src/engraving/tests/playback/playbackcontext_data/play_techniques/persistent_staff_text_voltas.mscx",
+      "status": "added",
+      "bytes": 10768,
+      "sha256": "c43163f5900c6bc7d0465c65f8b7907de16432c6c48523296b7a606944f2ec6e",
+      "baseSha256": null
+    },
+    {
+      "path": "src/engraving/tests/playback/playbackcontext_tests.cpp",
+      "status": "modified",
+      "bytes": 56248,
+      "sha256": "38d06f60ca3476a0a59f6aa1937fbe39c2d46c97fa91b628a48d9194d7d55e65",
+      "baseSha256": "e415cbb236270f21aa2ef7910797b7cf7d8039446386e4acaa9a8f584dd30c00"
+    },
+    {
+      "path": "src/engraving/tests/playback/playbackeventsrendering_tests.cpp",
+      "status": "modified",
+      "bytes": 172718,
+      "sha256": "748d7cb172705154c646a1c9fb5d98a2a357a95c0c25436320408cf219a5a109",
+      "baseSha256": "509ecf6c54a2c5f590451a149713581e5442c248fc643205c1001bb804a906ce"
+    },
+    {
+      "path": "src/engraving/tests/stafftextmetadata_tests.cpp",
+      "status": "added",
+      "bytes": 7945,
+      "sha256": "38ea8e0874d8d4cb6affa4f5cf1f002b9be5fa163b1080e9647e943788ae6f24",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/audio/common/audiotypes.h",
+      "status": "modified",
+      "bytes": 16457,
+      "sha256": "baa12b3f5db885d41d13d80de1e016c43935ed3db254964069a249997922ed55",
+      "baseSha256": "2b567f7e36af5207030f5e91b7ea078c7fb8f0689a9ac143d56a038726ec6cd2"
+    },
+    {
+      "path": "src/framework/audio/common/rpc/rpcpacker.h",
+      "status": "modified",
+      "bytes": 26837,
+      "sha256": "6b6e4e05794ca0b70d46bc9abee001026f3a8544df65af81fc9456e64df91221",
+      "baseSha256": "e734a5b19b6f845a6fbdba5cdebd6ebcc864a8ff7ee65d43e005d4f5a94143dc"
+    },
+    {
+      "path": "src/framework/audio/engine/iaudiosource.h",
+      "status": "modified",
+      "bytes": 1844,
+      "sha256": "3f61ead942de8a90c76350c0f5d08a3dabb5cb51ec7b4f9d2112686e0536e12e",
+      "baseSha256": "d8ac7452fd57f451d88fb7e11fb6e77af292e2adb5eaf536b0be090361cedbe0"
+    },
+    {
+      "path": "src/framework/audio/engine/internal/engineplayback.cpp",
+      "status": "modified",
+      "bytes": 26862,
+      "sha256": "ee6d3ce4c99f07252e5cb80758409954743b8be285142ca3df27f319af4fae83",
+      "baseSha256": "6199d203648a57c81ad1ecb13852e36849a7f68d182fba1a8f97fcc61066cf11"
+    },
+    {
+      "path": "src/framework/audio/engine/internal/eventaudiosource.cpp",
+      "status": "modified",
+      "bytes": 7147,
+      "sha256": "a32ffb4605d818c011d19800258f889770503dbc883f4208dbf04037093d2760",
+      "baseSha256": "e06eb1c105fc5cd9ad0be830503696e97581083d5f1bacee78b00407cb40fd45"
+    },
+    {
+      "path": "src/framework/audio/engine/internal/eventaudiosource.h",
+      "status": "modified",
+      "bytes": 3279,
+      "sha256": "08285faa73c8a6174c18ba09f76e2c541b2af24f3584a2600a5931fed9bb50d5",
+      "baseSha256": "43e784bbc4aa396faf607988c13a3161e6d1a96955c469d43aa201c3492f8675"
+    },
+    {
+      "path": "src/framework/audio/engine/internal/export/soundtrackwriter.cpp",
+      "status": "modified",
+      "bytes": 8134,
+      "sha256": "3fb77003fb4ce7aed26b770821666e4bf5d19f66ee31bc0fb47e08f3fa4bdf8d",
+      "baseSha256": "061ba32376137283205a6dbb070f8027fa512b6520c6f1b67436c328fe94d8a7"
+    },
+    {
+      "path": "src/framework/audio/engine/internal/mixer.cpp",
+      "status": "modified",
+      "bytes": 19126,
+      "sha256": "27d619893fb580362c767b360fbbdab22cb06608801315a74e6b667d8ffe3bdb",
+      "baseSha256": "34edb0e27fcde928b105cf5dec9a84dc567b8b40f4c49a1f09217a262df5ae41"
+    },
+    {
+      "path": "src/framework/audio/engine/internal/mixer.h",
+      "status": "modified",
+      "bytes": 4557,
+      "sha256": "07b85daabea0bd932d167e8142db9be6dcc310a94509d8ae7f952ab9fbc6612e",
+      "baseSha256": "118c841eb9d14bcb53623230f4d599ac08ec54427d369baab32a5cec6c7de006"
+    },
+    {
+      "path": "src/framework/audio/engine/internal/preparationrequest.h",
+      "status": "added",
+      "bytes": 1577,
+      "sha256": "47d5b0d7831f3233b0926caf99fae391f3409eec4ee0a584dc654b95633a4d47",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/audio/engine/internal/sequenceplayer.cpp",
+      "status": "modified",
+      "bytes": 9509,
+      "sha256": "47b96127b27037ccda40cd44c98731ef3783dce120ad50eea4d24ecbd50482da",
+      "baseSha256": "94e7f11ba0e640ad6682be967d67382005082e090ef1ca46c757c12c8ebcf282"
+    },
+    {
+      "path": "src/framework/audio/engine/internal/sequenceplayer.h",
+      "status": "modified",
+      "bytes": 3018,
+      "sha256": "5997340cb15a4aa2343fcd01f226e7cc87c74d7b3e213af828cbec31b7a58521",
+      "baseSha256": "349d817d3b7c377e6e9081203c797b320578e8156e9d3e7e012250887642b1d7"
+    },
+    {
+      "path": "src/framework/audio/tests/rpcpacker/rpcpacker_tests.cpp",
+      "status": "modified",
+      "bytes": 25645,
+      "sha256": "9c8146728bbd34e769d6cfe6f904887ab41da450b5363461bb20c2efdc3deed2",
+      "baseSha256": "74b351c37e6e5370d501d6d65df48ce0eb533410181a00a7f38447a6fc4849fc"
+    },
+    {
+      "path": "src/framework/mpe/events.h",
+      "status": "modified",
+      "bytes": 13014,
+      "sha256": "4f5847f2af492ea279ddde347bccb8665149f5145311652dc233ac48d864d408",
+      "baseSha256": "7809e3574530214fe953fa5533fc2a49caac8cec79cfbafa5057344081ab49c9"
+    },
+    {
+      "path": "src/framework/mpe/mpetypes.h",
+      "status": "modified",
+      "bytes": 27963,
+      "sha256": "134647c52ba941f2e6578e9b19d46e19f1f2072594cdd504dc37c1d0222cc105",
+      "baseSha256": "bbe00959e89e41601ce8434548e98dd756ecd786a0d143c2f0ddd9e8a2ccf9d1"
+    },
+    {
+      "path": "src/framework/multiwindows/internal/multiprocess/ipc/ipc.h",
+      "status": "modified",
+      "bytes": 2464,
+      "sha256": "345573417e60930132828c8681c0a769ae25c2023ac16ea34f3ad97899e645c4",
+      "baseSha256": "387c7b5e1203e73ec2ee8aa1c428670e00e881cf30ddc310bd802efe4775d47e"
+    },
+    {
+      "path": "src/framework/vst/CMakeLists.txt",
+      "status": "modified",
+      "bytes": 3967,
+      "sha256": "67730983673daa08108127d296b95a83c499dfc74de10b4b0413331430894fb4",
+      "baseSha256": "8bcf6c598c093cf03ae22f05211ba777959fb3fdb24c328a46d7ef7ff361b406"
+    },
+    {
+      "path": "src/framework/vst/internal/synth/vslloadobservation.h",
+      "status": "added",
+      "bytes": 2327,
+      "sha256": "3b1f5400eef8829f57756f09053c238ea5d9809df23e023747c0e1ac712d9c40",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/internal/synth/vslsamplestate.cpp",
+      "status": "added",
+      "bytes": 6227,
+      "sha256": "7dfd3c5aec0826a76361300428c7e3d914fa530c80fffe6f4177ce974db1a2d4",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/internal/synth/vslsamplestate.h",
+      "status": "added",
+      "bytes": 595,
+      "sha256": "0dfc9b2dadb089aae0606af5fc3ba7aa124439dd2fd0e181122a9044d13a901a",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/internal/synth/vstarticulationmapper.cpp",
+      "status": "added",
+      "bytes": 47060,
+      "sha256": "e7064a65052c7b948e4dd23b48a436a1f337ad6cf5e891b11ec0a1dc65790b1d",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/internal/synth/vstarticulationmapper.h",
+      "status": "added",
+      "bytes": 4896,
+      "sha256": "2bfe6d743bbecb7fcf54e6e467e32bedeac109b59dd649d1138ed103b82399ac",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/internal/synth/vstarticulationordering.h",
+      "status": "added",
+      "bytes": 1270,
+      "sha256": "a55484954480cd71c04e3c134dfd8bb0387d381c0d2b9769d5e5765f7aa82f91",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/internal/synth/vstsequencer.cpp",
+      "status": "modified",
+      "bytes": 19080,
+      "sha256": "6187ccecf5aff2d9ed5707abaf18c62bf1cd22e392efa1b1dfce51953cbb59f2",
+      "baseSha256": "1e3e0a2dced57308a07d6e9aa04a695900ea7a7b1e8e0e8d9b397de846b58096"
+    },
+    {
+      "path": "src/framework/vst/internal/synth/vstsequencer.h",
+      "status": "modified",
+      "bytes": 3909,
+      "sha256": "1226a333c279e82a60d9cdecc1155bc3785a1accd8b5208004662e27e28c479d",
+      "baseSha256": "13ede63cd9dde536a286ef234f05d0b984836dd4d9eacef23970a24fcbc15e5b"
+    },
+    {
+      "path": "src/framework/vst/internal/synth/vstsynthesiser.cpp",
+      "status": "modified",
+      "bytes": 13305,
+      "sha256": "0649eb8c1a7f17c8173c13ffe5eca5c77d289065161afb7c6b4b7b2e2df1e9fc",
+      "baseSha256": "2636a7e46a95bed8ce629260e574fa4b75be2bd497c78c97cae47a2bce796270"
+    },
+    {
+      "path": "src/framework/vst/internal/synth/vstsynthesiser.h",
+      "status": "modified",
+      "bytes": 4053,
+      "sha256": "d808f7d3dabe5942bb387d14dab37f0acda11b575f1f534a322785511563e6ce",
+      "baseSha256": "83bcda281d409a2884d5505cabbf642749665292d4fb58a3656c30938d38fa2c"
+    },
+    {
+      "path": "src/framework/vst/internal/vstplugininstance.cpp",
+      "status": "modified",
+      "bytes": 21144,
+      "sha256": "d02babc856712c8104f11f3872a6720f6366e3b02b85aeb24a98472701212a8c",
+      "baseSha256": "149b65ee16777d794b52b690af78fc021ede2e3e7a4118201db28f9769335b13"
+    },
+    {
+      "path": "src/framework/vst/internal/vstplugininstance.h",
+      "status": "modified",
+      "bytes": 3817,
+      "sha256": "185171c6a0523a30274206824bb0941f62047a83b1c0b7eb59501d89246a967d",
+      "baseSha256": "73eba09f4c761ee06de1e541ffc49d69844b00dcf073f5420d060e4f650358e2"
+    },
+    {
+      "path": "src/framework/vst/internal/vstpluginlifetime.h",
+      "status": "added",
+      "bytes": 1034,
+      "sha256": "eb2a0d820258dc95cd28082185cedaf62adfceee86df786ef0ca4679f1337e28",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/ivstplugininstance.h",
+      "status": "modified",
+      "bytes": 2154,
+      "sha256": "6043799262046f59ce245fcbe9c636d847c3bab47be38688fc81f64c0d67ffc8",
+      "baseSha256": "a330c6670e1d3ff9b734d0ad4530662b64565ce53df53aa71659634c839b4fbe"
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/COPYING",
+      "status": "added",
+      "bytes": 18091,
+      "sha256": "f9c375a1be4a41f7b70301dd83c91cb89e41567478859b77eef375a52d782505",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/LICENSE",
+      "status": "added",
+      "bytes": 1549,
+      "sha256": "7055266497633c9025b777c78eb7235af13922117480ed5c674677adc381c9d8",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/.gitignore",
+      "status": "added",
+      "bytes": 48,
+      "sha256": "d87b60fa535d8a097547b917bce231ee9cb1fa389bf05759b6fca4a61e7b2a3e",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/BUCK",
+      "status": "added",
+      "bytes": 4480,
+      "sha256": "6629e51f4a8ea262df547b179b967068523bb13f75b6415458517328f5c1cbb9",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/Makefile",
+      "status": "added",
+      "bytes": 12104,
+      "sha256": "ce4a4c445f3a4a11d5f509567d0ebbd3dec393dc272adf36c7892e7cbd3ccdf6",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/README.md",
+      "status": "added",
+      "bytes": 12909,
+      "sha256": "070e59959b0e108c52c6596990f3544edec0fee007d020ae9a1a3c58b9d09cec",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/common/allocations.h",
+      "status": "added",
+      "bytes": 1637,
+      "sha256": "6a718e8edaca112abdc0bdfa7de67edefaa44c8d9e514b79672ab58ab3a9118a",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/common/bits.h",
+      "status": "added",
+      "bytes": 5956,
+      "sha256": "5bb7693a35d7ce03f8715c0b1e237062285e052250fdd34f72f38e7e92365090",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/common/bitstream.h",
+      "status": "added",
+      "bytes": 18727,
+      "sha256": "a9461685c9add6f609078acc950a08db4c02e6e6a849d550f45182ba2ae38556",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/common/compiler.h",
+      "status": "added",
+      "bytes": 16644,
+      "sha256": "d19829705d8039437ffba873df2b58d20d7b876d58da479121d2e515df55cbf7",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/common/cpu.h",
+      "status": "added",
+      "bytes": 5438,
+      "sha256": "23d520b536a6f23114e66549d03a967b1f24b15560c5b1ebd47ee392ccee4a1c",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/common/debug.c",
+      "status": "added",
+      "bytes": 1091,
+      "sha256": "7ab1ea104acf3243fc1cd4e6d2514046f1dfc1101c7c676145c8da080e8c24ca",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/common/debug.h",
+      "status": "added",
+      "bytes": 3925,
+      "sha256": "8260cd5087b8309679c61b772b535688993c61a675a30481b8ae55b45740ba15",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/common/entropy_common.c",
+      "status": "added",
+      "bytes": 13308,
+      "sha256": "7dfce29c6bc807645b1f0c373dad94bbb49603b175a84e72d1739bf9df65feb8",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/common/error_private.c",
+      "status": "added",
+      "bytes": 3905,
+      "sha256": "3f5873b2626ca1cdf554b7ec7b04ea0ef296fd0f6882d7fad42448b7e2dbb41c",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/common/error_private.h",
+      "status": "added",
+      "bytes": 6438,
+      "sha256": "ae077bb433eb150ee247410a0357f910b9c07be839c6a9abe0b2e6b18ceb716d",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/common/fse.h",
+      "status": "added",
+      "bytes": 30033,
+      "sha256": "5235ce1e512bf80204d013b1f4cecd776fdaa9effddb48308bce08f6d0b84499",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/common/fse_decompress.c",
+      "status": "added",
+      "bytes": 12478,
+      "sha256": "84eba7030a036b36363a5108e760428ce549f1a833bec6464dc755f6ed51a6fb",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/common/huf.h",
+      "status": "added",
+      "bytes": 14119,
+      "sha256": "9a83d899c8c9bf03389d482562090ec2443bc0f87f27864a2b891b180333f2d4",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/common/mem.h",
+      "status": "added",
+      "bytes": 12939,
+      "sha256": "4dd5fe76fa30a020cd4b3af3134ae143920300a1fe54baac1a5da73297e66783",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/common/pool.c",
+      "status": "added",
+      "bytes": 11782,
+      "sha256": "9431e26cf7ca46ffb878f17df31198046664d592ae208dfbe3715e82b87af79d",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/common/pool.h",
+      "status": "added",
+      "bytes": 2569,
+      "sha256": "bca19a2408e85f31bad3a13f205de92ac26ecda0c5af96fdd7f213ce03d9fc78",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/common/portability_macros.h",
+      "status": "added",
+      "bytes": 4916,
+      "sha256": "75e2b43968b70decc6bd17876833be04894035594ddc1e745cd6b70be8265637",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/common/threading.c",
+      "status": "added",
+      "bytes": 4886,
+      "sha256": "50448323b46a8e1bde042ee88ec44fcfc646f3d4aeba8a06be54d26a710ed78d",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/common/threading.h",
+      "status": "added",
+      "bytes": 5112,
+      "sha256": "9ca63027ea64046acacccbe056a414d37ea7ea428ce299fe08abe53c204c5c65",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/common/xxhash.c",
+      "status": "added",
+      "bytes": 607,
+      "sha256": "8444d064922f434b67b708a987981aa21dfeece735b48c82d31f7027d0ccef03",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/common/xxhash.h",
+      "status": "added",
+      "bytes": 262488,
+      "sha256": "8cb837b21a8fe9a6b9dbcd0961ab16e733bfcbfa9e003f3a496ce07ae80aa8ee",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/common/zstd_common.c",
+      "status": "added",
+      "bytes": 1683,
+      "sha256": "f49eb8023a90d3de925373bd9ee0d36ed46b26c529840b64220397446cd73795",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/common/zstd_deps.h",
+      "status": "added",
+      "bytes": 3010,
+      "sha256": "9c77ea7d0afa8d5c868a7839e178a446a82d88eb75fd56f2fd7d9d96c5ab7c11",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/common/zstd_internal.h",
+      "status": "added",
+      "bytes": 10911,
+      "sha256": "ad3d95ce2b81a8c5c6b00cfe6323d8e80cacb690d3b5883725cd0d939f4f576f",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/common/zstd_trace.h",
+      "status": "added",
+      "bytes": 4562,
+      "sha256": "17f6daa4c7e97055cd1ed7bcf4d9241a4e79b465f083c5d732fda1df2f0be11e",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/compress/clevels.h",
+      "status": "added",
+      "bytes": 6860,
+      "sha256": "d764daa89b7a636d26fe96ff3536c5075e9867fb5dddbf8c9d57023a8ff4a155",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/compress/fse_compress.c",
+      "status": "added",
+      "bytes": 24103,
+      "sha256": "5070807a489757b87c1e1f50332b099e8ffe22971228218111eef64d3321ae82",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/compress/hist.c",
+      "status": "added",
+      "bytes": 7650,
+      "sha256": "1a613082642b9cabdeecd3b5929f7230cbb2f8344a28f5010f3aec12cb647ab8",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/compress/hist.h",
+      "status": "added",
+      "bytes": 3754,
+      "sha256": "9e3363e69d5fa35c1f6e8d2970c6c2453c06fd8a8ab3cc516a14c77d07cdea35",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/compress/huf_compress.c",
+      "status": "added",
+      "bytes": 58546,
+      "sha256": "0be78471f5175e49bbacb898d8b107bb8f7e13adc84780e0625be5861f016086",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/compress/zstd_compress.c",
+      "status": "added",
+      "bytes": 345541,
+      "sha256": "10c315ae609d49b2fc431521aa95908086e69fd917991c5ed9a875af3d1208e8",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/compress/zstd_compress_internal.h",
+      "status": "added",
+      "bytes": 68505,
+      "sha256": "ab7754413cef565da559bda7eb738bc2b3708c48877cb9ec37aff767d32c57d1",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/compress/zstd_compress_literals.c",
+      "status": "added",
+      "bytes": 9155,
+      "sha256": "a8f25f1bd4c0d2d9dda3355d2103c9dfbd0b7056bfd373e29e923662bfea5596",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/compress/zstd_compress_literals.h",
+      "status": "added",
+      "bytes": 1613,
+      "sha256": "02270cd6bc060279217861776a53adb67f8d7e54f47f59d2a4ddcef2e705fe2d",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/compress/zstd_compress_sequences.c",
+      "status": "added",
+      "bytes": 20004,
+      "sha256": "3f4334c19ed770c4007bc12df4098026d4eb1a6fbebfbf36df58054e7babc3e9",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/compress/zstd_compress_sequences.h",
+      "status": "added",
+      "bytes": 2224,
+      "sha256": "361d108d7d452ed26f0ae4b39964f8e62166ed91d03347a5229e5d228734efc8",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/compress/zstd_compress_superblock.c",
+      "status": "added",
+      "bytes": 34085,
+      "sha256": "dd62ed79ee1feec78b2e5bfc63417ccbdcda426f4220d112b0fcd8a9d0c7e667",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/compress/zstd_compress_superblock.h",
+      "status": "added",
+      "bytes": 1168,
+      "sha256": "6b097999ea1d91776ca5a12e5ee02c1ed15edfcd31ba07b9ada94b0955195677",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/compress/zstd_cwksp.h",
+      "status": "added",
+      "bytes": 28892,
+      "sha256": "ed77c2739b18b9800b97785262526a1dd4f385311ca5c2caa20b6f2a35f3735d",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/compress/zstd_double_fast.c",
+      "status": "added",
+      "bytes": 35303,
+      "sha256": "9f6d003c2fe1208737bec685910324220424ba47d0323fa30d9d5f53c50e91da",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/compress/zstd_double_fast.h",
+      "status": "added",
+      "bytes": 1767,
+      "sha256": "d9c29c9c004f572532265e12af78d5949c0908f4ef0bb0158977bcf80e1cf92b",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/compress/zstd_fast.c",
+      "status": "added",
+      "bytes": 38104,
+      "sha256": "8037320f321836652e73ab6cbf7b8f1f4c97cef38835ac6b4aaf0af716aa398d",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/compress/zstd_fast.h",
+      "status": "added",
+      "bytes": 1178,
+      "sha256": "dffdf43fae7ee10a2acc04e6a5eaaf03f7d3572898117a06c330d647eed5591d",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/compress/zstd_lazy.c",
+      "status": "added",
+      "bytes": 102821,
+      "sha256": "dd6ccf357165dc8cb574ea56a34ff1db57b7b31728b32103d0c6b72319fd45b1",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/compress/zstd_lazy.h",
+      "status": "added",
+      "bytes": 9684,
+      "sha256": "6f13007fbd6824058a73b097960446defe265e33b22c7c6dc2304dcf53998bbf",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/compress/zstd_ldm.c",
+      "status": "added",
+      "bytes": 29313,
+      "sha256": "4a2bef3612ae4a9e15a78a55541a152091fa8ba160410db24d495bd6dd57249e",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/compress/zstd_ldm.h",
+      "status": "added",
+      "bytes": 4365,
+      "sha256": "bd0cb86041d3a72fd7846e141a41aadae229c8e331a2117df7f6b70a1b4cb08c",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/compress/zstd_ldm_geartab.h",
+      "status": "added",
+      "bytes": 6077,
+      "sha256": "7285ac8ba1f0fa57a8cd8158bd427ded4e70e32a58e73b57c420b83a76e5e6e3",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/compress/zstd_opt.c",
+      "status": "added",
+      "bytes": 72006,
+      "sha256": "625936ee3fb02d789abb894c1fbc2918ee47582434094c963b630da13532c876",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/compress/zstd_opt.h",
+      "status": "added",
+      "bytes": 3046,
+      "sha256": "9b677efbae28909034d3c24f37dc5c4295d267cf477bf04e14653579f90d8b6e",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/compress/zstd_preSplit.c",
+      "status": "added",
+      "bytes": 8729,
+      "sha256": "8d7da15de31318ebb7dfe2f2e2c79f05b0d0563dcb92d4525814d05a279d0d64",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/compress/zstd_preSplit.h",
+      "status": "added",
+      "bytes": 1175,
+      "sha256": "910facb2e3442e42a6952c514223c4502d95ed957bf7dc73982b3b03785b361b",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/compress/zstdmt_compress.c",
+      "status": "added",
+      "bytes": 84098,
+      "sha256": "c83db699b4041bf4db89c5558db490dd295635f1eeefd60b643fbc862bbac7b5",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/compress/zstdmt_compress.h",
+      "status": "added",
+      "bytes": 4574,
+      "sha256": "033fb25d96b4295c3d0158edf4d1bd4067f42aac39427706754e6c034b20f80f",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/decompress/huf_decompress.c",
+      "status": "added",
+      "bytes": 76910,
+      "sha256": "710a88d877d5dc5c83a4f839392996f337ec81cf38006c4a5be6042de5b54828",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/decompress/huf_decompress_amd64.S",
+      "status": "added",
+      "bytes": 15150,
+      "sha256": "7fe53316261517a8f877b793f3bfba8305a3f9ff05c5947f1d709aaff346f1dc",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/decompress/zstd_ddict.c",
+      "status": "added",
+      "bytes": 9182,
+      "sha256": "38bf812283d61f4cd1f6aea30f84b43317418257c4e6fc198b09b436bd484397",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/decompress/zstd_ddict.h",
+      "status": "added",
+      "bytes": 1319,
+      "sha256": "a97a250fd2f956e3ae419ddde68ae1f9fe4025bc0373254058d31bbd352fa71c",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/decompress/zstd_decompress.c",
+      "status": "added",
+      "bytes": 102400,
+      "sha256": "029580818b7e9cd38d9d07c63516b00ceaa943ffcfbd099fc5ccbe3628fa362f",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/decompress/zstd_decompress_block.c",
+      "status": "added",
+      "bytes": 101467,
+      "sha256": "9cb8bcb07aeb87e4717a9c8a86d20832dc525dde2c1b72efdaaab7c937f43b87",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/decompress/zstd_decompress_block.h",
+      "status": "added",
+      "bytes": 2682,
+      "sha256": "62ee0c6ae3f7353020538397f436b59743da8acb922068841b346f480f7078ac",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/decompress/zstd_decompress_internal.h",
+      "status": "added",
+      "bytes": 9683,
+      "sha256": "73217b49a644c0fcf567b70677cae31449ba9f50a235ef3b681001c3f36dc56d",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/deprecated/zbuff.h",
+      "status": "added",
+      "bytes": 11501,
+      "sha256": "fcd83d7f05dc7bc6e52da6200878e05d7dc4906cf2ccfa70ce4c753e1fdc2422",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/deprecated/zbuff_common.c",
+      "status": "added",
+      "bytes": 1008,
+      "sha256": "9c2f0f5debd0632ea52d8776eff332227a90396bfec079159b3c29340e018215",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/deprecated/zbuff_compress.c",
+      "status": "added",
+      "bytes": 6770,
+      "sha256": "b31a0a39d6546639b1d3e68c28632d0dd2651c2a7dba34a5a522cc6def43a842",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/deprecated/zbuff_decompress.c",
+      "status": "added",
+      "bytes": 2082,
+      "sha256": "d567f0df10c98c6751accc2d71338437e77682b1492aab6e8e4ed09d75df572c",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/dictBuilder/cover.c",
+      "status": "added",
+      "bytes": 44541,
+      "sha256": "2419631b20b0f4867d0f3c178fc4a3006d05f58e8ce3ce6657133f85ed40d683",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/dictBuilder/cover.h",
+      "status": "added",
+      "bytes": 4828,
+      "sha256": "6e2906e7e5c486a5b7f479f60210ff67d068b2c58744ad6a936ba5a9f4a23755",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/dictBuilder/divsufsort.c",
+      "status": "added",
+      "bytes": 54649,
+      "sha256": "2081acb08865f623857d2c0dcb0e79fce9489f01416528c30cfee7097915c616",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/dictBuilder/divsufsort.h",
+      "status": "added",
+      "bytes": 2295,
+      "sha256": "14c16c2f67019875a2ea6cd07a4e803adfadce448e0b80351c51e5f910230d38",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/dictBuilder/fastcover.c",
+      "status": "added",
+      "bytes": 28575,
+      "sha256": "0b8b511e6370e89cb257d1a4b4d8e77add5537ffb999cfe5e7e59e454c93f38f",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/dictBuilder/zdict.c",
+      "status": "added",
+      "bytes": 44432,
+      "sha256": "dbe57910c9d446bbf2195f31bdba5cffef2c80b93c0325e9df8c9ffa744b0aa3",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/dll/example/Makefile",
+      "status": "added",
+      "bytes": 1473,
+      "sha256": "e148160ca8dc220f5c6037f042380ef2eebee516497e23673289c87e2c96e264",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/dll/example/README.md",
+      "status": "added",
+      "bytes": 2956,
+      "sha256": "48a9e1287c1c0921909b6306e96abd1a5d733b4a53fc1c3e346d05701cedff33",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/dll/example/build_package.bat",
+      "status": "added",
+      "bytes": 784,
+      "sha256": "34509ff536dd9303475f8a1de32bab856f67d0ab9c48eefc939bc8b672c88221",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/dll/example/fullbench-dll.sln",
+      "status": "added",
+      "bytes": 1269,
+      "sha256": "af0c9152e1109cea3e7a997e59dc435f032526c238e95681741e2a2f12ad0a74",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/dll/example/fullbench-dll.vcxproj",
+      "status": "added",
+      "bytes": 10105,
+      "sha256": "4f932405a188a42bf7d8d525d72f62c24e0145092fab1f313331e1c637572d6f",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/legacy/zstd_legacy.h",
+      "status": "added",
+      "bytes": 15026,
+      "sha256": "90ecc3816d28da0e0537c610fe99209fb9603b1ecdb764bd1228a5226f5c7484",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/legacy/zstd_v01.c",
+      "status": "added",
+      "bytes": 69547,
+      "sha256": "8f439ec4d83f13caaa4ee86d8de74660a38cade89b48bedf3943a9315b98e167",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/legacy/zstd_v01.h",
+      "status": "added",
+      "bytes": 3815,
+      "sha256": "51e06e92b87abe35f617d9e65c6f26b4b1b50485cda6bf34f5b23bb6e1727b13",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/legacy/zstd_v02.c",
+      "status": "added",
+      "bytes": 125199,
+      "sha256": "ffedd2b0e4dae744b8592656050f2c56eb4c8ccad1795fb3efeceb7924808712",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/legacy/zstd_v02.h",
+      "status": "added",
+      "bytes": 3724,
+      "sha256": "341dd36148b7080eae742bb21196740482c4d94a97024f47ad1e7c0f2bb20e6b",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/legacy/zstd_v03.c",
+      "status": "added",
+      "bytes": 111309,
+      "sha256": "1d69626197b9c76d28012b78fc66bcc3077bf8d796ff6f82457666d3271e7f3d",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/legacy/zstd_v03.h",
+      "status": "added",
+      "bytes": 3736,
+      "sha256": "e9d7ccc971055129a14e3b81f0e9494a638e3d9c0b4b36413252d6b3adc90cf2",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/legacy/zstd_v04.c",
+      "status": "added",
+      "bytes": 132468,
+      "sha256": "a80d9591ff3fc387a05e8e075713af9ad34596dc5c8681666346a716013a6e14",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/legacy/zstd_v04.h",
+      "status": "added",
+      "bytes": 6454,
+      "sha256": "c8c31b9db45c1b559688738f280331a5f3bce5b275cf4c71e8a41282f406134e",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/legacy/zstd_v05.c",
+      "status": "added",
+      "bytes": 153712,
+      "sha256": "62170472e18505b3347e563cdb1eba439312bb53385663730ac58cd92f3c4678",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/legacy/zstd_v05.h",
+      "status": "added",
+      "bytes": 7552,
+      "sha256": "6fb3be7f31544cee69cfb421d5bc6e34e72f4e2612b38cb38d47032a8531acdf",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/legacy/zstd_v06.c",
+      "status": "added",
+      "bytes": 163487,
+      "sha256": "d2cadc9e2906fe50e9c9564bdcb291582532060fdcec9c4bc5f0ee4370182b75",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/legacy/zstd_v06.h",
+      "status": "added",
+      "bytes": 8090,
+      "sha256": "138728fdc9de7ebd5c7ffdf471b8b324cafa8e0ab638c6f4d9c048296cfe23ab",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/legacy/zstd_v07.c",
+      "status": "added",
+      "bytes": 182177,
+      "sha256": "ae9f3c0a440b0f61d0ce44b06ee7ed3d256e10f3cb7dbbd9834d6c13625ac944",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/legacy/zstd_v07.h",
+      "status": "added",
+      "bytes": 8733,
+      "sha256": "b682d3dffc64564fdf6f19d67baece362a1b7075c0140a80ce54e17f79961b49",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/libzstd.mk",
+      "status": "added",
+      "bytes": 8730,
+      "sha256": "d4dd36a428b41793f565c4f4754bc31c9085506d95f50ea3e93ef9688b7b5868",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/libzstd.pc.in",
+      "status": "added",
+      "bytes": 479,
+      "sha256": "fda15eeb137a13714a64cfc517fc50e6e0dea9e5c965cfcde993055b2611c95e",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/module.modulemap",
+      "status": "added",
+      "bytes": 887,
+      "sha256": "9057c3276d68fbbef0c140ec3f5431222fb5f450b0608c09fb2756c7e99f59f4",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/zdict.h",
+      "status": "added",
+      "bytes": 26516,
+      "sha256": "abacadb94e3f79e591f4b1648e839b0160fbf4291211fd01bdba1380269b245c",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/zstd.h",
+      "status": "added",
+      "bytes": 181748,
+      "sha256": "9b4bc8245565c98ccfc61c07749928b57e7c0f6fddb0530c4f6aa1971893d88b",
+      "baseSha256": null
+    },
+    {
+      "path": "src/framework/vst/thirdparty/zstd-1.5.7/lib/zstd_errors.h",
+      "status": "added",
+      "bytes": 4278,
+      "sha256": "66a8c3f71d12ea6e797e4f622f31f3f8f81c41b36f48cad4f5de7d8bfb6aac0a",
+      "baseSha256": null
+    },
+    {
+      "path": "src/importexport/audioexport/internal/abstractaudiowriter.cpp",
+      "status": "modified",
+      "bytes": 8088,
+      "sha256": "ad5a6ecec71e1bade23951c6b841d006430a5912dfe2d68238e1e2d69ae151d7",
+      "baseSha256": "4a907d23119ecbb67b778b73301748f309144e9067e8d031049f85cf22a460d8"
+    },
+    {
+      "path": "src/playback/internal/playbackcontroller.cpp",
+      "status": "modified",
+      "bytes": 60458,
+      "sha256": "68faad15e8875e46adb55ec5b791ac4a1bdbae97d7311c5f294da11ab1d3e063",
+      "baseSha256": "035c4fc9acec93bbd0899f0118fbf629a86d91a8582db450e8cfa3255b54fd8a"
+    },
+    {
+      "path": "version.cmake",
+      "status": "modified",
+      "bytes": 2325,
+      "sha256": "e5102fe4ee6d5604d609bceb6eca76f4d4c5dbc9502fba5ec746b7a61cc60b42",
+      "baseSha256": "bff3f5d09d8beaa55851f6c7f95a16cebe2c966606835c98ca0dead3ede72956"
+    }
+  ],
+  "verification": {
+    "baselineFilesReadFromExactUpstreamGitObjects": true,
+    "independentTemporaryRepository": true,
+    "gitApplyCheckPassed": true,
+    "allPatchedFilesByteIdenticalToSource": true,
+    "sourceGitIndexAndWorkingTreeUnchanged": true,
+    "applicationRebuiltDuringPackaging": false,
+    "scope": "Every touched file was restored from its exact official base blob and patched; this is source reconstruction verification, not a new full build."
+  }
+}

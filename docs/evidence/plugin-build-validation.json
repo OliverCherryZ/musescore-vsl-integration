@@ -1,0 +1,40 @@
+{
+  "status": "BUILD_AND_SELECTED_TESTS_PASSED",
+  "testsSkipped": false,
+  "installed": false,
+  "loadedProprietaryPlayer": false,
+  "artifacts": [
+    {
+      "name": "Synchron Smooth Bridge.vst3",
+      "sha256": "b6f3c1da07979244be5978ab035ba9fd2385d5347e318c696a4a07d989c5b389"
+    },
+    {
+      "name": "Synchron Offline Bridge Fix.vst3",
+      "sha256": "68da629a19f8f402fbe83d0017ffa715ef380208b156b003efe5f16a2603ae45"
+    },
+    {
+      "name": "VSL Host Dynamics Smoother.vst3",
+      "sha256": "d40e98363a54f2546e96eaf8fa661b5eed366e5e3605b5c48ee453d8c3f58843"
+    },
+    {
+      "name": "smoother_selftest.exe",
+      "sha256": "34c5ad5fcd87c3ab1e45c367d6b38d83618855038dbb92a391577edfa20f3d0a",
+      "testExitCode": 0,
+      "testOutput": "{\"passed\":true,\"tests\":[\"steady_bit_exact\",\"raised_cosine_144_frames\",\"zero_gain\",\"variable_blocks\",\"reject_mismatch_before_write\",\"silence\",\"raised_cosine_40ms_1920_frames\",\"raised_cosine_55ms_2640_frames\"],\"partition_max_difference\":7.45058059692e-09,\"maximum_relative_sse\":5.97785913803e-16}"
+    },
+    {
+      "name": "broker_smoke.exe",
+      "sha256": "e0952d718e135fd2d116e87c0b0d023d5c98284c115d137c224ffd349ce958de",
+      "testExitCode": 0,
+      "testOutput": "broker smoke passed: +/-1 rounding preserved, 2-sample seek reset,  concatenation, segments, one-consumer, source isolation, stable epoch, ring wrap, invalid bypass"
+    },
+    {
+      "name": "multibus_smoke.exe",
+      "sha256": "7f3bdbe5be25deba91f46cbcd41cfacb84c49c92265acd03e3f423010e3dd298",
+      "testExitCode": 0,
+      "testOutput": "11-bus smoke passed: output bytes/pointers/flags unchanged, reference published, scalar relative SSE 1.70835689997e-14, mono/invalid guards"
+    }
+  ],
+  "date": "2026-11-18",
+  "scope": "Source publication build and sample-free tests; no native listening test in this release preparation."
+}

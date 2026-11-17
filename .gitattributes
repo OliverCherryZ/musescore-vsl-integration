@@ -1,0 +1,16 @@
+* text=auto
+*.patch -text
+*.json text eol=lf
+*.md text eol=lf
+*.py text eol=lf
+*.js text eol=lf
+*.qml text eol=lf
+*.cpp text eol=lf
+*.h text eol=lf
+LICENSE text eol=lf
+# Preserve source snapshot bytes used by the provenance manifests.
+musescore/support/** -text
+plugins/*.cpp -text
+plugins/*.h -text
+plugins/deps/vstinitiids.cpp -text
+runtime/** -text

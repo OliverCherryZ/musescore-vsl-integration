@@ -1,0 +1,10 @@
+/build/
+/__pycache__/
+*.pyc
+*.obj
+*.lib
+*.exp
+*.pdb
+*.exe
+*.vst3
+*_diagnostics.log

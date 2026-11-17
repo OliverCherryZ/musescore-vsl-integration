@@ -1,0 +1,24 @@
+# Local builds and licensed runtime assets are intentionally not versioned.
+__pycache__/
+*.pyc
+/.work/
+/work/
+/dist/
+**/build/
+**/_build/
+*.exe
+*.dll
+*.vst3
+*.pdb
+*.obj
+*.lib
+*.log
+*.wav
+*.mp3
+*.mscz
+*.mscx
+!musescore/support/**/*.mscx
+.env
+.env.*
+Thumbs.db
+.DS_Store

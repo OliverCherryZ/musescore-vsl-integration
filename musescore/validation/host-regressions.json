@@ -1,0 +1,64 @@
+{
+  "allPassed": true,
+  "executedAt": "2026-11-18T00:47:42.738124+08:00",
+  "applicationRebuiltDuringRun": false,
+  "results": [
+    {
+      "target": "muse_vst_expression_mapper_tests",
+      "exitCode": 0,
+      "executableSha256": "d2a3eb4af11f4bbb57b81e180d111f7296ecd89c0c2189981482e00c0eb57e36",
+      "summaryLines": [
+        "PASS 88 native mapper assertions"
+      ]
+    },
+    {
+      "target": "muse_vst_mapper_baseline_compat_tests",
+      "exitCode": 0,
+      "executableSha256": "e5ad7c643c59596ed3cc562d9aa45d484f356df759728abea5b856eadfe4296c",
+      "summaryLines": [
+        "PASS 88 native mapper assertions"
+      ]
+    },
+    {
+      "target": "muse_vst_mapper_extension_tests",
+      "exitCode": 0,
+      "executableSha256": "e9441648718926d249dfde5e1a50a29c0f8c0877107122a75ff7b5c9b0605043",
+      "summaryLines": [
+        "PASS 777 extension mapper assertions"
+      ]
+    },
+    {
+      "target": "muse_vst_harmonic_tremolo_mapper_tests",
+      "exitCode": 0,
+      "executableSha256": "4efe64cd6072c33608afde746dc9463c4a3693c07f134d5360e73c4d3b148a8e",
+      "summaryLines": [
+        "PASS 1143 harmonic tremolo RPC mapper assertions"
+      ]
+    },
+    {
+      "target": "muse_vsl_load_observation_tests",
+      "exitCode": 0,
+      "executableSha256": "a2ddd4d93e188fcf499e68b4c43a83fb68169c6efe6722aa66c1de4f36fb9f67",
+      "summaryLines": [
+        "PASS 28 observation-policy checks (not a VSL ready acknowledgement)"
+      ]
+    },
+    {
+      "target": "engraving_tests",
+      "exitCode": 0,
+      "executableSha256": "89847a1bf59ca4d9d0c54e5ac461a0e6b2974abc883a10f10eea33e548a22556",
+      "summaryLines": [
+        "[  PASSED  ] 106 tests."
+      ]
+    },
+    {
+      "target": "muse_audio_rpcpacker_tests",
+      "exitCode": 0,
+      "executableSha256": "28b4acbd9bc2675b0eed2b791bb63668ba9b2fc92fc801d9768e32d29a10295d",
+      "summaryLines": [
+        "[  PASSED  ] 26 tests."
+      ]
+    }
+  ],
+  "scope": "Source regressions; no native playback, export, or listening test."
+}
