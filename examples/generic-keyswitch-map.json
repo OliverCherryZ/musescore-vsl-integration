@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "enabled": false,
+  "description": "Disabled example. Replace the exact resource ID, score instrument ID, and keyswitch notes with values for your own VST3 before enabling. 24/25/26 are placeholders, not universal mappings.",
+  "resourceIds": ["REPLACE_WITH_EXACT_VST3_RESOURCE_ID"],
+  "dispatch": {"midiChannel": 0, "keyswitchNoteOnVelocity": 1.0},
+  "instruments": {
+    "violin": {
+      "defaultArticulation": "standard",
+      "chordFallbackArticulation": "standard",
+      "articulations": {
+        "standard": {"keyswitches": [24]},
+        "staccato": {"keyswitches": [25]},
+        "pizzicato": {"keyswitches": [26]}
+      },
+      "techniqueMappings": {
+        "arco": "standard",
+        "natural": "standard",
+        "open": "standard",
+        "staccato": "staccato",
+        "pizzicato": "pizzicato"
+      },
+      "symbolMappings": [
+        {"type": "Staccato", "articulation": "staccato", "priority": 60},
+        {"type": "Pizzicato", "articulation": "pizzicato", "priority": 150}
+      ]
+    }
+  }
+}

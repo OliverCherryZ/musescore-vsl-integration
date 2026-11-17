@@ -1,6 +1,14 @@
 # Validation scope
 
-This source publication was prepared on 2026-11-18. It separates packaging checks from earlier native application tests and listening acceptance. Public source files do not include private logs, screenshots, scores with embedded player state, commercial binaries, or audio recordings.
+This publication was prepared on 2026-11-18 and supplemented with Windows binaries. It separates packaging checks from earlier native application tests and listening acceptance. The release excludes private logs, screenshots, scores with embedded commercial player state, commercial VSL binaries and samples, and private audio recordings.
+
+## Windows binary distribution checks
+
+The packaged host retains the final installed executable SHA-256 `a877222e478aecc517901279e8335501911f0c212125e26dddede69ce009ac9f`. The three companion plugins are the MSVC builds from the published v0.1.0 sources. Their class IDs, x64 PE format, factory loading and release passed; the smoother also passed 17 component/controller/state checks. Static companion-plugin imports require only Windows KERNEL32; bridges dynamically require the user's Synchron Player.
+
+From the relocated application directory, with PATH restricted to its own bin and Windows system directories, version reporting, MusicXML-to-PDF and MuseScore Basic WAV export succeeded. The generated WAV was 48 kHz stereo IEEE float32, 7 seconds, finite and non-silent, with peak below full scale. Native GUI startup, display of the generated two-measure test score, and normal exit were observed. These were tests on the development computer with its existing user profile, not a clean-machine deployment or a subjective listening test.
+
+GUI startup displayed a MuseSounds unavailable notice. Dismissing it allowed normal score work; MuseSounds compatibility is not established by this release. The three newly compiled companion binaries were not newly auditioned with every VSL route. Runtime libraries and fonts are bundled with notices; VSL player, commercial sample libraries and player preset state are supplied by the user.
 
 ## Source and companion-plugin publication checks
 

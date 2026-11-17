@@ -1,11 +1,11 @@
 # 配置与使用
 
-这套工程把自定义 MuseScore、Synchron 桥接插件、动态平滑效果器及谱面奏法选择器连接在一起。源码发布面向能自行编译和配置 VST 的用户。要发声，仍需自行安装并授权 Vienna Synchron Player 与 Synchron Solo Strings。
+本页介绍 Synchron 专项配置：把自定义 MuseScore、Synchron 桥接插件、动态平滑效果器及谱面奏法选择器连接在一起。现已提供可直接运行的 Windows 包，普通用户不需要编译；先看 [下载与安装](WINDOWS-INSTALL.zh-CN.md)。这一专项工作流需要自行安装并授权 Vienna Synchron Player 与 Synchron Solo Strings。使用其他兼容 VST3 音源不要求安装 VSL，通用能力见 [项目详解](PROJECT-OVERVIEW.zh-CN.md)。
 
 ## 准备和安装
 
-1. 按 [MuseScore 构建说明](BUILD-MUSESCORE.md) 构建本仓库补丁对应的定制宿主。普通官方版本不认识这里的精确奏法元数据。
-2. 按 [VST 构建说明](BUILD-PLUGINS.md) 构建并安装插件。当前主要组合是 `Synchron Smooth Bridge` 音源和 `VSL Host Dynamics Smoother` 效果器；`Synchron Offline Bridge Fix` 用于已有旧工程的兼容。
+1. 下载完整 Windows 包并解压，或按 [MuseScore 构建说明](BUILD-MUSESCORE.md) 自行构建。普通官方版本不认识这里的精确奏法元数据。
+2. 完整包已含三款 VST3；将 `Companion-Plugins/VST3` 加入宿主搜索路径即可。也可按 [VST 构建说明](BUILD-PLUGINS.md) 自行编译。当前主要组合是 `Synchron Smooth Bridge` 音源和 `VSL Host Dynamics Smoother` 效果器；`Synchron Offline Bridge Fix` 用于已有旧工程的兼容。
 3. 将 `runtime/expression-maps/active.json` 放到定制宿主安装目录的 `expression-maps/active.json`。默认路径相对可执行文件为 `../expression-maps/active.json`。也可在启动宿主前，将环境变量 `MUSESCORE_VST_EXPRESSION_MAP` 设为该 JSON 的绝对路径；兼容别名为 `MUSESCORE_VSL_ARTICULATION_MAP`。
 4. 将 `runtime/plugins/vsl_articulation_selector` 整个文件夹放入 MuseScore 的插件目录，在插件管理器中启用 **VSL Articulations**。三个文件必须放在同一目录。可在快捷键设置中为其分配 `Ctrl+Alt+V`；复制文件本身不会自动设置快捷键。
 5. 新建两把小提琴、中提琴、大提琴的工程，分别选择独立的 Smooth Bridge 音源实例，并在每个播放器中载入对应的 Synchron Solo Strings **Velocity** 工厂预设：Violin、Violin 2、Viola、Violoncello。映射依赖该预设的维度结构与键位；不要把其他预设当作等价替代。

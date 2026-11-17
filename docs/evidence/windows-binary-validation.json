@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-18",
+  "applicationSha256": "a877222e478aecc517901279e8335501911f0c212125e26dddede69ce009ac9f",
+  "sourceCommit": "858a926ea2ceba2f016e40aa52e0d54c8d2dcbf0",
+  "nativeGuiStartedAndExited": true,
+  "pdfExportExitCode": 0,
+  "wavExportExitCode": 0,
+  "audio": {
+    "format": "IEEE Float32",
+    "sampleRate": 48000,
+    "channels": 2,
+    "durationSeconds": 7.0,
+    "nonfiniteSamples": 0,
+    "peak": 0.09082233160734177,
+    "rms": 0.01356993568682185,
+    "sha256": "ffe51acd5fd11c259b8cf0035903f8f6a9cda006a1791dd1591a2b8f41c58523"
+  },
+  "staticDependencyAudit": {
+    "date": "2026-11-18",
+    "scope": "Static PE dependency inspection of staged application; dynamically loaded dependencies and clean-machine behavior require runtime checks.",
+    "peFilesInspected": 93,
+    "missingNonSystemImports": {},
+    "allStaticImportsResolved": true,
+    "qtVersion": "6.10.2",
+    "qtRelativePrefix": "..",
+    "requiredWindowsBaseline": "Windows 10 1809 or later x64, or Windows 11 x64 (Qt 6.10 baseline; package tested on current workstation only)",
+    "windowsIcuForwarderExcluded": true,
+    "qtToolingExcluded": true,
+    "compilerRuntime": "Eight installed app-local CRT DLLs matched official Microsoft CRT Redist 14.44.35112 byte-for-byte.",
+    "graphics": {
+      "softwareOpenGL": "Mesa 11.2.2 / LLVM 3.6.2 as identified by Qt-provided DLL strings",
+      "dxcInstalledVersion": "1.9.2602.17",
+      "dxcProvenanceLimit": "Same-family official release license notices are supplied; installed DXC binaries differ from the public v1.9.2602 download and are not claimed byte-identical."
+    },
+    "licensedVstLibrariesBundled": false,
+    "sourceAndNotices": "Bundled LICENSES/Runtime directory and matching Release source archive",
+    "sourceLinks": [
+      "https://doc.qt.io/qt-6.10/supported-platforms.html",
+      "https://download.qt.io/archive/qt/6.10/6.10.2/submodules/",
+      "https://learn.microsoft.com/en-us/visualstudio/releases/2022/redistribution"
+    ]
+  },
+  "limits": [
+    "Development machine with existing user profile; not a clean-machine test.",
+    "MuseSounds displayed an unavailable notice.",
+    "No new musical listening acceptance of every newly built companion plugin."
+  ]
+}
